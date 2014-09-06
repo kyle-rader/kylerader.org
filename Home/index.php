@@ -23,3 +23,4 @@ $page = "Home";
 </html>
 
 <?php include_once "$docRoot/include/dbEnd.php"; ?>
+

@@ -1,8 +1,9 @@
 Options +FollowSymlinks
 RewriteEngine on
-RewriteRule ^(.*)Classfinder.html$ $Classfinder/index.php [nc]
-RewriteRule ^(.*)Hack.html$ $Hackathon/index.php [nc]
+RewriteRule ^(.*)Classfinder$ /Classfinder/index.php [nc]
+RewriteRule ^(.*)Hack$ /Hackathon/index.php [nc]
 RewriteRule ^(.*)\.html$ $1.php [nc]
+RewriteRule ^/$  /Home/index.php [nc]
 
 <IfModule mod_headers.c>
 Header set Access-Control-Allow-Origin "*"
