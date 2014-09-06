@@ -6,8 +6,9 @@ $head = <<<EOT
 <title>$title</title>
 <link rel="stylesheet" type="text/css" href="/css/hero-font.css" />
 <link rel="stylesheet" type="text/css" href="/css/reboot.css" />
+<link rel="stylesheet" type="text/css" href="/css/vendor/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/css/vendor/foundation.min.css" />
 <link rel="stylesheet" type="text/css" href="$frmk" />
-<link rel="stylesheet" type="text/css" href="/css/sideNav.css" />
 EOT;
 
 print my_minify($head);
