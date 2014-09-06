@@ -48,16 +48,15 @@ body .SideNav {
     display:block;
     color:#fff;
     text-decoration:none;
+    padding:10px;
 }
 .SideNav li {
-    padding:10px;
     -webkit-transition: background-color .3s linear;
     background-color:#2b2b2b;
     color:#efefef;
 }
 
 .SideNav li:hover {
-    padding:10px;
     -webkit-transition: background-color .3s linear;
     background-color:#0083d6;
     color:#efefef;
