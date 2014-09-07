@@ -2,6 +2,7 @@
 /* Setup */
 include_once $_SERVER["DOCUMENT_ROOT"] . "/include/includes.php";
 $page = "Hack";
+$pageTitle = "WWU CS Hackathon";
 
 ?>
 

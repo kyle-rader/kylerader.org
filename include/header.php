@@ -1,6 +1,6 @@
 <head>
 <?php
-$title = isset($page) ? $page : 'Kyle Rader.org';
+$title = isset($pageTitle) ? $pageTitle : 'Kyle Rader.org';
 $frmk = isset($frameworkCSS) ? $frameworkCSS : '/css/framework.css';
 $head = <<<EOT
 <title>$title</title>

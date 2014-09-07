@@ -61,21 +61,24 @@ body .SideNav {
     text-decoration:none;
     padding:10px;
     color:#fff;
-}
-.SideNav li {
     -webkit-transition: background-color .3s linear;
     background-color:transparent;
     color:#efefef;
 }
-
-.SideNav li:hover {
+.SideNav li a:hover {
     -webkit-transition: background-color .3s linear;
     background-color:#85c000;
     color:#efefef;
 }
-
 .SideNav li + li {
     border-top:solid 1px #888;
+}
+.SideNav li a.active {
+    background-image:url(/img/green-ts.png);
+}
+.SideNav li a.active:hover {
+    background-image:url(/img/green-ts.png);
+    background-color:transparent;
 }
 
 /* FOOTER */

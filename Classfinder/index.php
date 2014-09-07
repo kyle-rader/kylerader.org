@@ -2,7 +2,7 @@
 /* Setup */
 include_once $_SERVER["DOCUMENT_ROOT"] . "/include/includes.php";
 $page = "Classfinder";
-
+$pageTitle = "Classfinder 2.0";
 ?>
 
 <!DOCTYPE html>
