@@ -14,6 +14,6 @@
         </div>
     </div>
     <div id="footer">
-        Footer
+        <?php include_once "$docRoot/include/footer.php"; ?>
     </div>
 </div>

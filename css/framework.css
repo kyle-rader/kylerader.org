@@ -19,7 +19,7 @@ h3 { font-size:1.8em; }
 h4 { font-size:1.6em; }
 h5 { font-size:1.4em; }
 h6 { font-size:.8em; }
-
+a {color:#85cd00; text-decoration:none;}
 #mainWrapper {
     float:right;
     width:90%;
@@ -77,6 +77,48 @@ body .SideNav {
 .SideNav li + li {
     border-top:solid 1px #888;
 }
+
+/* FOOTER */
+#footer .icon-list {
+
+}
+
+#footer .icon-list li {
+    display:inline-block;
+    font-size:4em;
+}
+#footer .icon-list li + li{
+    padding-left:15px;
+}
+#footer .social-icon {
+-webkit-transition:color .3s linear;}
+#footer .social-icon:hover {
+-webkit-transition:color .3s linear;}
+
+.fi-social-linkedin {
+    color:#fff;}
+.fi-social-linkedin:hover {
+    color:#007bb6;}
+.fi-social-github {
+    color:#fff;}
+.fi-social-github:hover {
+    color:#000;}
+.fi-social-facebook {
+    color:#fff;}
+.fi-social-facebook:hover {
+    color:#3b5998;}
+.fi-social-twitter {
+    color:#fff;}
+.fi-social-twitter:hover {
+    color:#00aced;}
+.fi-social-google-plus {
+    color:#fff;}
+.fi-social-google-plus:hover {
+    color:#dd4b39;}
+.fi-mail {
+    color:#fff;}
+.fi-mail:hover {
+    color:#85cd00;}
 
 /* GENERAL */
 .center-text {
