@@ -18,7 +18,7 @@ h2 { font-size:2em; font-family:HeroLight;}
 h3 { font-size:1.8em; font-family:HeroLight;}
 h4 { font-size:1.6em; font-family:HeroLight;}
 h5 { font-size:1.4em; font-family:HeroLight;}
-h6 { font-size:.8em; font-family:HeroLight;}
+h6 { font-size:1em; font-family:HeroLight;}
 a {color:#85cd00; text-decoration:none;}
 #mainWrapper {
     float:right;
