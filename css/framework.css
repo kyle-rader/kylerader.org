@@ -13,12 +13,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-h1 { font-size:2.4em; font-family:HeroLight;}
-h2 { font-size:2em; font-family:HeroLight;}
-h3 { font-size:1.8em; font-family:HeroLight;}
-h4 { font-size:1.6em; font-family:HeroLight;}
-h5 { font-size:1.4em; font-family:HeroLight;}
-h6 { font-size:1.1em; font-family:HeroLight; padding:0; margin:0; border:none; display:inline;}
+h1 { font-size:2.4em; font-family:HeroLight; color:#fff;}
+h2 { font-size:2em; font-family:HeroLight; color:#fff;}
+h3 { font-size:1.8em; font-family:HeroLight; color:#fff;}
+h4 { font-size:1.6em; font-family:HeroLight; color:#fff;}
+h5 { font-size:1.4em; font-family:HeroLight; color:#fff;}
+h6 { font-size:1.1em; font-family:HeroLight; color:#fff; padding:0; margin:0; border:none; display:inline;}
 a {color:#85cd00; text-decoration:none;}
 
 #mainWrapper {
@@ -32,7 +32,7 @@ a {color:#85cd00; text-decoration:none;}
 }
 #content {
     padding-top:15px;
-    padding-bottom:150px;;   /* Height of the footer element */
+    padding-bottom:120px;;   /* Height of the footer element */
     height:100%;
 }
 ul.spaced li + li {
@@ -63,7 +63,7 @@ body .SideNav {
 .SideNav li a {
     display:block;
     text-decoration:none;
-    padding:10px;
+    padding:5px;
     color:#fff;
     -webkit-transition: background-color .3s linear;
     background-color:transparent;

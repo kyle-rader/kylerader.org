@@ -16,5 +16,5 @@
     <p><a href="http://acm.wwu.edu">WWU ACM</a>: Activities Coordinator | <a href="https://uzility.com">Uzility</a>: Director of Engineering</p>
 </div>
 <div class="large-4 columns">
-    <p>Photo Credit: Curtis McCarson</p>
+    <p>Photography: Curtis McCarson</p>
 </div>

@@ -5,7 +5,7 @@
     <div id="content">
         <div class="row dark-bg">
             <div class="large-4 columns">
-                <h1 style="margin-top:15px;">Kyle W. Rader</h1>
+                <h1>Kyle W. Rader</h1>
                 <a class="button" href="https://github.com/kyle-rader/resume/blob/master/Kyle_Rader_Resume.pdf?raw=true">Download PDF</a>
             </div>
             <div class="large-offset-3 large-5 columns">
@@ -34,7 +34,7 @@
             <div class="large-10 columns">
                 <p>
                     Experienced<br>
-                    C#, C, Java, Ruby, PHP, Javascript, HTML, CSS, <img src="/img/latex.png" style="width:75px;">
+                    C#, C, Java, Ruby, PHP, Javascript, HTML, CSS, <img src="/img/latex.png" style="width:75px; vertical-align:bottom;">
                 </p>
             </div>
         </div>
@@ -117,6 +117,7 @@
                 </ul>
             </div>
         </div>
+        <br>
     </div>
 
     <div id="footer">
