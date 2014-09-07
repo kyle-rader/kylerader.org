@@ -7,7 +7,7 @@ body {
     background:transparent;
 }
 html {
-  background: url(/img/smoke1.png) no-repeat center center fixed;
+  background: url(/img/background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -66,12 +66,12 @@ body .SideNav {
 
 .SideNav li:hover {
     -webkit-transition: background-color .3s linear;
-    background-color:#0083d6;
+    background-color:#85c000;
     color:#efefef;
 }
 
 .SideNav li + li {
-    border-top:solid 1px #494949;
+    border-top:solid 1px #888;
 }
 
 /* GENERAL */
