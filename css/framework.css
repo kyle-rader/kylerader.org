@@ -23,7 +23,7 @@ a {color:#85cd00; text-decoration:none;}
 
 #mainWrapper {
     float:right;
-    width:90%;
+    width:85%;
     min-height:100%;
     position:relative;
 }
@@ -53,7 +53,7 @@ ul.spaced li + li {
 /* SIDE NAV */
 body .SideNav {
     float:left;
-    width:10%;
+    width:15%;
     min-height:100%;
     position:fixed;
     font-family:HeroLight;
