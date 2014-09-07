@@ -13,6 +13,7 @@
                 <p><a href="mailto:kyle.rader+webResume@ieee.org">kyle.rader@ieee.org</a> | (425) 241 - 7977</p>
             </div>
         </div>
+        <!-- EDUCATION -->
         <div class="row dark-bg">
             <div class="large-2 columns">
                 <h4 class="green-text">Education</h4>
@@ -25,6 +26,7 @@
                 </p>
             </div>
         </div>
+        <!-- LANGUAGES -->
         <div class="row dark-bg">
             <div class="large-2 columns">
                 <h4 class="green-text">Languages</h4>
@@ -36,6 +38,7 @@
                 </p>
             </div>
         </div>
+        <!-- EXPERIENCE -->
         <div class="row dark-bg">
             <div class="large-2 columns">
                 <h4 class="green-text">Experience</h4>
@@ -69,6 +72,48 @@
                             <p>Adapted a GUI geotomographich program in Matlab to accept real-world Xray data and produce approximate reconstructions.</p>
                             <p>Greatly improved visual display of algorithm process with the addition of real time graphing during reconstruction.</p>
                     </li>
+                </ul>
+            </div>
+        </div>
+        <!-- AWARDS -->
+        <div class="row dark-bg">
+            <div class="large-2 columns">
+                <h4 class="green-text">Awards</h4>
+            </div>
+            <div class="large-10 columns">
+                <ul>
+                    <li>WWU Computer Science Citizenship Award <span class="right">June 2014</span></li>
+                    <li>Technology Alliance Group: Technology Leader of Tomorrow <span class="right">December 2013</span></li>
+                    <li>WWU Computer Science Citizenship Scholarship <span class="right">September 2013</span></li>
+                    <li>Logos Research Systems Scholarship <span class="right">September 2012</span></li>
+                    <li>Dealer Information Systems Scholarship <span class="right">September 2011</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- VOLUNTEER SERVICE -->
+        <div class="row dark-bg">
+            <div class="large-2 columns">
+                <h4 class="green-text">Volunteer Service</h4>
+            </div>
+            <div class="large-10 columns">
+                <ul>
+                    <li>Jr. Supervisor Bellingham A.I. and Robotics Society. Taught kids programming through robotics. <span class="right">Jan 2011 - Jan 2013</span></li>
+                    <li>WWU ACM mentor. Tutor students in intro level computer science courses. <span class="right">Ongoing</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- EXTRA-CURRICULAR ACTIVITIES -->
+        <div class="row dark-bg">
+            <div class="large-2 columns">
+                <h4 class="green-text">Volunteer Service</h4>
+            </div>
+            <div class="large-10 columns">
+                <ul>
+                    <li>WWU ACM Activities Coordinator <span class="right">June 2013 2011 - present</span></li>
+                    <li>CCDC / Cyber Defense Club <span class="right">September 2012 - June 2013</span></li>
+                    <li>WWU Robotics Club President <span class="right">September 2010 - June 2012</span></li>
+                    <li>WWU IEEE Vice Chair <span class="right">September 2011 - June 2012</span></li>
+                    <li>Associated Students Inter Club Council: Academic Representative <span class="right">September 2010 - June 2011</span></li>
                 </ul>
             </div>
         </div>
