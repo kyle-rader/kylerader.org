@@ -17,4 +17,7 @@
 </div>
 <div class="large-4 columns">
     <p>Photography: Curtis McCarson</p>
+    <br>
+    <span id="siteseal" ><script type="text/javascript" src="https://seal.starfieldtech.com/getSeal?sealID=e8VqvFB54QMJqKg3aA0XZiESj7xhIvgA3Tb7CecBIQ767RFzPVB0"></script></span>
+    <span id="cdSiteSeal1"><script type="text/javascript" src="//tracedseals.starfieldtech.com/siteseal/get?scriptId=cdSiteSeal1&amp;cdSealType=Seal1&amp;sealId=55e4ye7y7mb73b9aca1ce7663a535dexzny7mb7355e4ye7d47635fae9435d143"></script></span>
 </div>
