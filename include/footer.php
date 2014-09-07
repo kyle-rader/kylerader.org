@@ -1,4 +1,4 @@
-<div class="large-4 columns">
+<div class="large-4 columns medium-12 columns">
     <ul class="icon-list">
         <li><a target="_blank" href="https://www.linkedin.com/pub/kyle-rader/7b/361/882/"><i class="fi-social-linkedin social-icon"></i></a></li>
         <li><a target="_blank" href="https://github.com/kyle-rader"><i class="fi-social-github social-icon"></i></a></li>
@@ -8,14 +8,14 @@
         <li><a href="mailto:kyle.rader+fromWeb@ieee.org"><i class="fi-mail social-icon"></i></a></li>
     </ul>
 </div>
-<div class="large-4 columns">
+<div class="large-4 medium-8 columns">
     <p>This website uses the font <span style="font-family:HeroLight;">Hero Light</span>
     provided by <a href="http://www.fontfabric.com">Font Fabric</a>
     </p>
     <p>Site Author: Kyle W. Rader</p>
-    <p><a href="http://acm.wwu.edu">WWU ACM</a>: Activities Coordinator | <a href="https://uzility.com">Uzility</a>: Director of Engineering</p>
+    <p><a href="http://acm.wwu.edu">WWU ACM</a>: Activities Coordinator <span class="show-for-large-only">|</span><br class="hide-for-large-only"> <a href="https://uzility.com">Uzility</a>: Director of Engineering</p>
 </div>
-<div class="large-4 columns">
+<div class="large-4 medium-4 columns">
     <p>Photography: Curtis McCarson</p>
     <br>
     <span id="siteseal" ><script type="text/javascript" src="https://seal.starfieldtech.com/getSeal?sealID=e8VqvFB54QMJqKg3aA0XZiESj7xhIvgA3Tb7CecBIQ767RFzPVB0"></script></span>
