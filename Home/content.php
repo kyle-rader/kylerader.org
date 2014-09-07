@@ -11,7 +11,6 @@
         <div class="row center-text">
             <div class="small-12 columns">
                 <h3>Enjoy one of my favorite TED talks</h3>
-                <hr>
             </div>
         </div>
         <div class="row center-text">
