@@ -11,5 +11,4 @@ $terms['nav-items'] = Array(
     '/Hack' => 'WWU CS HACKATHON',
     'Classfinder' => 'CLASSFINDER 2.0',
     '/Resume' => 'RESUME',
-    'http://www.codecademy.com/' => 'CODE ACADEMY',
-    'https://cse.wwu.edu/computer-science' => 'WWU Computer Science');
+    '/Resources' => 'RESOURCES');

@@ -3,6 +3,7 @@ RewriteEngine on
 RewriteRule ^(.*)Classfinder$ /Classfinder/index.php [nc]
 RewriteRule ^(.*)Hack$ /Hackathon/index.php [nc]
 RewriteRule ^(.*)Resume$ /Resume/index.php [nc]
+RewriteRule ^(.*)Resources$ /Resources/index.php [nc]
 RewriteRule ^(.*)\.html$ $1.php [nc]
 RewriteRule ^(/?|Home)$  /Home/index.php [nc]
 
