@@ -1,4 +1,4 @@
-<nav class="SideNav">
+<nav class="SideNav dark-bg">
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/Hack">WWU CS HACKATHON</a></li>
