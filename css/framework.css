@@ -18,7 +18,7 @@ h2 { font-size:2em; font-family:HeroLight;}
 h3 { font-size:1.8em; font-family:HeroLight;}
 h4 { font-size:1.6em; font-family:HeroLight;}
 h5 { font-size:1.4em; font-family:HeroLight;}
-h6 { font-size:1em; font-family:HeroLight;}
+h6 { font-size:1.1em; font-family:HeroLight; padding:0; margin:0; border:none; display:inline;}
 a {color:#85cd00; text-decoration:none;}
 
 #mainWrapper {
@@ -35,7 +35,7 @@ a {color:#85cd00; text-decoration:none;}
     padding-bottom:120px;;   /* Height of the footer element */
     height:100%;
 }
-#content li + li {
+ul.spaced li + li {
     padding-top:10px;
 }
 #footer {

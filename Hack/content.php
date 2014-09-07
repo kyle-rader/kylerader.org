@@ -9,7 +9,7 @@
     <div id="content">
         <div class="row dark-bg">
             <div class="small-12 columns">
-                <ul>
+                <ul class="spaced">
                     <li><h4 class="green-text">Who</h4>Western Washington University & Whatcom Community College students!</li>
                     <li><h4 class="green-text">When</h4>Nov 1st 11:00 AM - Nov 2nd 2:00 PM</li>
                     <li><h4 class="green-text">Where</h4>WWU Computer Science Department & Labs</li>
@@ -44,6 +44,7 @@
             <div class="small-6 columns">
                 <a class="button" href="#">Company Registration</a>
             </div>
+        </div>
     </div>
     <div id="footer">
         <?php include_once "$docRoot/include/footer.php"; ?>
