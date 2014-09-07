@@ -21,7 +21,7 @@
                     </li>
                     <li><h4 class="green-text">How</h4>
                     You will form a team prior to or at the start of the hackathon.  Your team must have an idea for an app
-                    (mobile or desktop), website, service, etc that would be useful to students/faculty/staff at our your school.
+                    (mobile or desktop), website, service, etc that would be useful to students/faculty/staff at your school.
                     You will have exactly 24 hours to "hack-together" (hence:hackathon) a prototype or a full fledged app.  At the
                     end your team must present to a panel of judges. You have exactly 3 minutes of presentation followed by 3 minutes
                     of Q & A.<br>
