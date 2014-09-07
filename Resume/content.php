@@ -4,21 +4,21 @@
 
     <div id="content">
         <div class="row dark-bg">
-            <div class="large-4 columns">
+            <div class="large-4 medium-5 columns">
                 <h1>Kyle W. Rader</h1>
                 <a class="button" href="https://github.com/kyle-rader/resume/blob/master/Kyle_Rader_Resume.pdf?raw=true">Download PDF</a>
             </div>
-            <div class="large-offset-3 large-5 columns">
+            <div class="large-offset-3 large-5 medium-offset-1 medium-6 columns">
                 <p>835 N State St Apt 310 Bellingham, WA 98225</p>
                 <p><a href="mailto:kyle.rader+webResume@ieee.org">kyle.rader@ieee.org</a> | (425) 241 - 7977</p>
             </div>
         </div>
         <!-- EDUCATION -->
         <div class="row dark-bg">
-            <div class="large-2 columns">
+            <div class="large-2 medium-4 columns">
                 <h4 class="green-text">Education</h4>
             </div>
-            <div class="large-10 columns">
+            <div class="large-10 medium-12 columns">
                 <p>
                     Western Washington University, Bellingham, Wa (gpa: 3.44/4.0).<br>
                     B.S. in Computer Science (June 2014). Minors in Math and Embedded Systems<br>
@@ -28,10 +28,10 @@
         </div>
         <!-- LANGUAGES -->
         <div class="row dark-bg">
-            <div class="large-2 columns">
+            <div class="large-2 medium-4 columns">
                 <h4 class="green-text">Languages</h4>
             </div>
-            <div class="large-10 columns">
+            <div class="large-10 medium-12 columns">
                 <p>
                     Experienced<br>
                     C#, C, Java, Ruby, PHP, Javascript, HTML, CSS, <img src="/img/latex.png" style="width:75px; vertical-align:bottom;">
@@ -40,10 +40,10 @@
         </div>
         <!-- EXPERIENCE -->
         <div class="row dark-bg">
-            <div class="large-2 columns">
+            <div class="large-2 medium-4 columns">
                 <h4 class="green-text">Experience</h4>
             </div>
-            <div class="large-10 columns">
+            <div class="large-10 medium-12 columns">
                 <ul class="spaced">
                     <li><h6><a href="https://uzility.com">UZILITY</a> | Director of Engineering</h6> <span class="right">December 2013 - present</span><br>
                         <p>Innovating tools for the process of agile project management.</p>
@@ -77,10 +77,10 @@
         </div>
         <!-- AWARDS -->
         <div class="row dark-bg">
-            <div class="large-2 columns">
+            <div class="large-2 medium-4 columns">
                 <h4 class="green-text">Awards</h4>
             </div>
-            <div class="large-10 columns">
+            <div class="large-10 medium-12 columns">
                 <ul>
                     <li>WWU Computer Science Citizenship Award <span class="right">June 2014</span></li>
                     <li>Technology Alliance Group: Technology Leader of Tomorrow <span class="right">December 2013</span></li>
@@ -92,10 +92,10 @@
         </div>
         <!-- VOLUNTEER SERVICE -->
         <div class="row dark-bg">
-            <div class="large-2 columns">
+            <div class="large-2 medium-4 columns">
                 <h4 class="green-text">Volunteer Service</h4>
             </div>
-            <div class="large-10 columns">
+            <div class="large-10 medium-12 columns">
                 <ul>
                     <li>Jr. Supervisor Bellingham A.I. and Robotics Society. <span class="right">January 2011 - January 2013</span></li>
                     <li>WWU ACM mentor. Tutor students in intro level computer science courses. <span class="right">Ongoing</span></li>
@@ -104,10 +104,10 @@
         </div>
         <!-- EXTRA-CURRICULAR ACTIVITIES -->
         <div class="row dark-bg">
-            <div class="large-2 columns">
+            <div class="large-2 medium-4 columns">
                 <h4 class="green-text">Volunteer Service</h4>
             </div>
-            <div class="large-10 columns">
+            <div class="large-10 medium-12 columns">
                 <ul>
                     <li>WWU ACM Activities Coordinator <span class="right">June 2013 2011 - present</span></li>
                     <li>CCDC / Cyber Defense Club <span class="right">September 2012 - June 2013</span></li>
