@@ -50,7 +50,7 @@
                         <p>Practicing lean start-up methodology and agile software developement.</p>
                         <p>Utilizing Zurb's Foundation CSS framework.  Web services are developed with PHP and MySQL.</p>
                     </li>
-                    <li><h6><a href="https://cse.wwu.edu/computer-science">WWU, Computer Science Dept</a> | Lab TA</h6> <span class="right">Sept 2011 - present</span><br>
+                    <li><h6><a href="https://cse.wwu.edu/computer-science">WWU, Computer Science Dept</a> | Lab TA</h6> <span class="right">September 2011 - present</span><br>
                         <p>Plan, run, critique, and grade, labs and homework.</p>
                         <p>Courses: Intro to Programming I & II, Intro to Robotics</p>
                         <p>(Graduate TA as of Sept 2014)</p>
@@ -97,7 +97,7 @@
             </div>
             <div class="large-10 columns">
                 <ul>
-                    <li>Jr. Supervisor Bellingham A.I. and Robotics Society. Taught kids programming through robotics. <span class="right">Jan 2011 - Jan 2013</span></li>
+                    <li>Jr. Supervisor Bellingham A.I. and Robotics Society. <span class="right">January 2011 - January 2013</span></li>
                     <li>WWU ACM mentor. Tutor students in intro level computer science courses. <span class="right">Ongoing</span></li>
                 </ul>
             </div>
