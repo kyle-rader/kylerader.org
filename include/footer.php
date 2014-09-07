@@ -13,7 +13,7 @@
     provided by <a href="http://www.fontfabric.com">Font Fabric</a>
     </p>
     <p>Site Author: Kyle W. Rader</p>
-    <p>Activities Coordinator WWU ACM | Director of Engineering <a href="https://uzility.com">Uzility</a></p>
+    <p><a href="http://acm.wwu.edu">WWU ACM</a>: Activities Coordinator | <a href="https://uzility.com">Uzility</a>: Director of Engineering</p>
 </div>
 <div class="large-4 columns">
     <p>Photo Credit: Curtis McCarson</p>
