@@ -41,13 +41,33 @@
                 <h4 class="green-text">Experience</h4>
             </div>
             <div class="large-10 columns">
-                <ul>
-                    <li><h6><a href="https://uzility.com">Uzility</a> | Director of Engineering</h6> <span class="right">December 2013 - present</span><br>
-                        <ul>
-                            <li>Innovating tools for the process of agile project management.</li>
-                            <li>Practicing lean start-up methodology and agile software developement.</li>
-                            <li>Utilizing Zurb's Foundation CSS framework.  Web services are developed with PHP and MySQL.</li>
-                        </ul>
+                <ul class="spaced">
+                    <li><h6><a href="https://uzility.com">UZILITY</a> | Director of Engineering</h6> <span class="right">December 2013 - present</span><br>
+                        <p>Innovating tools for the process of agile project management.</p>
+                        <p>Practicing lean start-up methodology and agile software developement.</p>
+                        <p>Utilizing Zurb's Foundation CSS framework.  Web services are developed with PHP and MySQL.</p>
+                    </li>
+                    <li><h6><a href="https://cse.wwu.edu/computer-science">WWU, Computer Science Dept</a> | Lab TA</h6> <span class="right">Sept 2011 - present</span><br>
+                        <p>Plan, run, critique, and grade, labs and homework.</p>
+                        <p>Courses: Intro to Programming I & II, Intro to Robotics</p>
+                        <p>(Graduate TA as of Sept 2014)</p>
+                    </li>
+                    <li><h6><a href="http://www.brertechnical.com/">Brer Technical</a> | Lead Software Engineer</h6> <span class="right">April 2012 - April 2014</span><br>
+                        <p>Designed and implemented software infrastructure for safety monitoring in manufacturing plants.
+                        Included real-time collection of sensor data, design and administration of cloud-based and SQLite databases with appropriate APIs,
+                        automatic generation of safety reports, and creating GUI-based tools to analyze the data.  Development followed Agile methodology,
+                        primarily in C# and databases languages.  Also built up a team to extend and maintain system.</p>
+                    </li>
+                    <li><h6><a href="https://www.logos.com/">Logos Research Systems</a> | Software Engineer</h6> <span class="right">June 2013 - January 2014</span><br>
+                        <p>Converted an internal devops website from Node.js to Ruby on Rails.  Scalability and modularity were important in the design
+                        of the new Rails site.
+                        </p>
+                        <p>DevOps tools within the site included RabbitMQ messaging services, MySQL cluster management, and schema migration tools.</p>
+                        </p>
+                    </li>
+                    <li><h6><a href="http://geometrictomography.com/">WWU, Mathematics Dept</a> | Research Assitant</h6> <span class="right">August 2011 - June 2013</span><br>
+                            <p>Adapted a GUI geotomographich program in Matlab to accept real-world Xray data and produce approximate reconstructions.</p>
+                            <p>Greatly improved visual display of algorithm process with the addition of real time graphing during reconstruction.</p>
                     </li>
                 </ul>
             </div>

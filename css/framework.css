@@ -32,7 +32,7 @@ a {color:#85cd00; text-decoration:none;}
 }
 #content {
     padding-top:15px;
-    padding-bottom:120px;;   /* Height of the footer element */
+    padding-bottom:150px;;   /* Height of the footer element */
     height:100%;
 }
 ul.spaced li + li {
