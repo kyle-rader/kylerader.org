@@ -8,9 +8,8 @@
     </div>
     <div id="content">
         <div class="row">
-            <div class="small-12 columns panel">
-                <p>You have reached Kyle's website.
-                </p>
+            <div class="small-12 columns">
+                <h3>"People don't buy what you do they buy why you do it!" - Simon Sinek</h3>
             </div>
         </div>
     </div>
