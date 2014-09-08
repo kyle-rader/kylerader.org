@@ -34,7 +34,7 @@
         </div>
         <div class="row dark-bg">
             <div class="small-12 columns">
-                <h4>Register Now!</h4>
+                <h4>Register Below!</h4>
             </div>
         </div>
         <div class="row dark-bg">
