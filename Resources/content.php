@@ -33,6 +33,8 @@
                 <ul class="button-group">
                     <li><a class="button small" target="_blank" href="http://xamarin.com/">Xamarin</a></li>
                     <li><a class="button small" target="_blank" href="http://d3js.org/">D3.js</a></li>
+                    <li><a class="button small" target="_blank" href="http://sass-lang.com/">Sass</a></li>
+                    <li><a class="button small" target="_blank" href="http://coffeescript.org/">Coffee Script</a></li>
                     <li><a class="button small" target="_blank" href="http://phonegap.com/">Phone Gap</a></li>
                     <li><a class="button small" target="_blank" href="http://www.nand2tetris.org/">Nand to Tetris</a></li>
                     <li><a class="button small" target="_blank" href="https://koding.com/Activity">Koding</a></li>
