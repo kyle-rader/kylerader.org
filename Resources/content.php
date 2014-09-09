@@ -15,6 +15,7 @@
             </div>
             <div class="large-10 columns">
                 <ul class="button-group">
+                    <li><a class="button small" target="_blank" href="https://www.codeschool.com/">Code School</a></li>
                     <li><a class="button small" target="_blank" href="http://www.tutorialspoint.com/computer_programming_tutorials.htm">Tutorials Point</a></li>
                     <li><a class="button small" target="_blank" href="http://www.codecademy.com/">Codecademy</a></li>
                     <li><a class="button small" target="_blank" href="http://code.org/">Code.org</a></li>
@@ -49,6 +50,7 @@
             </div>
             <div class="large-10 columns">
                 <ul class="button-group">
+                    <li><a class="button small" target="_blank" href="https://cse.wwu.edu/computer-science">WWU Computer Science</a></li>
                     <li><a class="button small" target="_blank" href="https://support.cs.wwu.edu/index.php/Main_Page">CS Support</a></li>
                     <li><a class="button small" target="_blank" href="http://sw.cs.wwu.edu/~nordwap/">CS Web Cams</a></li>
                 </ul>
