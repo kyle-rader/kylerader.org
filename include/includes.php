@@ -9,6 +9,6 @@ $terms = Array();
 $terms['nav-items'] = Array(
     '/' => 'HOME',
     '/Hack' => 'WWU CS HACKATHON',
-    'Classfinder' => 'CLASSFINDER 2.0',
+    '/Classfinder' => 'CLASSFINDER 2.0',
     '/Resume' => 'RESUME',
     '/Resources' => 'RESOURCES');
