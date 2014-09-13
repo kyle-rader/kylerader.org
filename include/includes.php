@@ -1,6 +1,7 @@
 <?php
 
 $docRoot = $_SERVER["DOCUMENT_ROOT"];
+$devServer = $_SERVER['SERVER_NAME'] == 'dev.kylerader.org';
 
 include_once "$docRoot/include/db.php";
 include_once "$docRoot/include/utilityFunctions.php";
