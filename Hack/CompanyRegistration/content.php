@@ -99,6 +99,9 @@
                            <input id="attendLunchCheck" type="checkbox" name="judgeAttendOpeningLunch">
                            <label for="attendLunchCheck">Judge attending opening lunch? (Sat Nov 1st 11:00 AM)</label>
                         </div>
+                        <div class="row collapse">
+                           <input class="button" type="submit" name="Submit">
+                        </div>
                     </div>
                 </div>
             </form>
