@@ -8,7 +8,7 @@
     </div>
     <div id="content">
         <div class="row dark-bg">
-            <form>
+            <form action="/Hack/CompanyRegistrationConfirm/" method="GET">
                 <div class="row">
                     <div class="large-centered large-8 small-12 columns">
                         <div class="row collapse">

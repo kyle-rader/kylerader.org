@@ -355,6 +355,12 @@ form span.prefix i {
 .dark-bg {
     background-image:url(/img/dark-ts.png);
 }
+.HeroLight {
+    font-family:HeroLight;
+}
+span.HeroLight h5 {
+    display:inline-block;
+}
 input.button,
 a.button {
     -webkit-transition:color .3s linear;
