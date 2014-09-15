@@ -51,6 +51,10 @@
     .row {
         padding:15px;
     }
+    .row.collapse {
+        padding:5px;
+        padding-bottom:0;
+    }
 
     /* SIDE NAV */
     body .SideNav {
@@ -153,6 +157,9 @@
 
     .row {
         padding:10px;
+    }
+    .row.collapse {
+        padding:3px;
     }
 
     /* SIDE NAV */
@@ -258,6 +265,9 @@
     .row {
         padding:10px;
     }
+    .row.collapse {
+        padding:3px;
+    }
 
     /* SIDE NAV */
     body .SideNav {
@@ -316,6 +326,24 @@ color:#dd4b39;}
 color:#fff;}
 .fi-mail:hover {
 color:#85cd00;}
+
+form span.prefix {
+    font-family:HeroLight;
+    font-size:1.2em;
+    font-weight:bold;
+    vertical-align:top;
+}
+form label {
+    font-family:HeroLight;
+    font-size:1.2em;
+    vertical-align:top;
+    color:#fff;
+}
+form span.prefix i {
+    color:#85c000;
+    font-size:2em;
+    display:inline-block;
+}
 
 /* GENERAL */
 .center-text {

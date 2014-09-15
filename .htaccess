@@ -6,6 +6,7 @@ RewriteRule ^(.*)[rR]esume$ /Resume/index.php [nc]
 RewriteRule ^(.*)[rR]esources$ /Resources/index.php [nc]
 RewriteRule ^(.*)\.html$ $1.php [nc]
 RewriteRule ^(/?|Home)$  /Home/index.php [nc]
+RewriteRule ^/(.*)$ /$1/index.php [nc]
 
 <IfModule mod_headers.c>
 Header set Access-Control-Allow-Origin "*"

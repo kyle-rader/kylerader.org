@@ -39,11 +39,14 @@
             </div>
         </div>
         <div class="row dark-bg">
-            <div class="small-6 columns">
+            <div class="small-4 columns">
                 <a class="button" href="javascript:alert('Team Registration is under construction.');">Team Registration</a>
             </div>
-            <div class="small-6 columns">
-                <a class="button" href="javascript:alert('Company Registration is under construction.');">Company Registration</a>
+            <div class="small-4 columns">
+                <a class="button" href="/Hack/CompanyRegistration">Company Registration</a>
+            </div>
+            <div class="small-4 columns">
+                <a class="button" href="javascript:alert('Mentor Registration is under construction.');">Mentor Registration</a>
             </div>
         </div>
     </div>
