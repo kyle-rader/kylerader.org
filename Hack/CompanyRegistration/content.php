@@ -12,26 +12,26 @@
                 <div class="row">
                     <div class="large-centered large-8 small-12 columns">
                         <div class="row collapse">
-                            <div class="small-4 columns">
+                            <div class="small-2 columns">
                                 <span class="prefix"><i class="fi-torsos-all"></i></span>
                             </div>
-                            <div class="small-8 columns">
+                            <div class="small-10 columns">
                                 <input type="text" name="companyName" placeholder="Company Name" required>
                             </div>
                         </div>
                         <div class="row collapse">
-                            <div class="small-4 columns">
+                            <div class="small-2 columns">
                                 <span class="prefix"><i class="fi-torso"></i></span>
                             </div>
-                            <div class="small-8 columns">
+                            <div class="small-10 columns">
                                 <input type="text" name="contactName" placeholder="Contact Name (First Last) " required>
                             </div>
                         </div>
                         <div class="row collapse">
-                            <div class="small-4 columns">
+                            <div class="small-2 columns">
                                 <span class="prefix"><i class="fi-mail"></i></span>
                             </div>
-                            <div class="small-8 columns">
+                            <div class="small-10 columns">
                                 <input type="email" name="contactEmail" placeholder="contact@company.com" required>
                             </div>
                         </div>
@@ -72,26 +72,26 @@
                         </div>
                         <div class="row collapse">
                             <h5>Sending a JUDGE?</h5>
-                            <div class="small-4 columns">
+                            <div class="small-2 columns">
                                 <span class="prefix"><i class="fi-torso"></i></span>
                             </div>
-                            <div class="small-8 columns">
+                            <div class="small-10 columns">
                                 <input type="text" name="judgeName" placeholder="Judge Name">
                             </div>
                         </div>
                         <div class="row collapse">
-                            <div class="small-4 columns">
+                            <div class="small-2 columns">
                                 <span class="prefix"><i class="fi-mail"></i></span>
                             </div>
-                            <div class="small-8 columns">
+                            <div class="small-10 columns">
                                 <input type="email" name="judgeEmail" placeholder="judge@company.com">
                             </div>
                         </div>
                         <div class="row collapse">
-                            <div class="small-4 columns">
+                            <div class="small-2 columns">
                                 <span class="prefix"><i class="fi-torso-business"></i></span>
                             </div>
-                            <div class="small-8 columns">
+                            <div class="small-10 columns">
                                 <input type="text" name="judgePosition" placeholder="Position in company">
                             </div>
                         </div>

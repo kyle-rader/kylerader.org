@@ -43,7 +43,7 @@
             <hr>
             <form action="/Hack/CompanyRegistrationSubmit" method="GET">
                 <input class="button" type="submit" value="Submit">
-                <input type="hidden" name="comapnyName" value="<?php print $_GET['companyName']; ?>">
+                <input type="hidden" name="companyName" value="<?php print $_GET['companyName']; ?>">
                 <input type="hidden" name="contactName" value="<?php print $_GET['contactName']; ?>">
                 <input type="hidden" name="contactEmail" value="<?php print $_GET['contactEmail']; ?>">
                 <input type="hidden" name="companySize" value="<?php print $_GET['companySize']; ?>">
