@@ -12,6 +12,10 @@ $head = <<<EOT
 <link rel="stylesheet" type="text/css" href="$frmk" />
 EOT;
 
+if(isset($pageSpecificStyles)) {
+    $head .= $pageSpecificStyles;
+}
+
 print my_minify($head);
 ?>
 </head>

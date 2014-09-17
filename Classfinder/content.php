@@ -2,7 +2,7 @@
     <div id="header" >
         <div class="row center-text">
             <div class="small-12 columns">
-                <h1>A better way to find your classes.</h1>
+                <h1 id="greenH1">THIS IS A TEST</h1>
             </div>
         </div>
     </div>
