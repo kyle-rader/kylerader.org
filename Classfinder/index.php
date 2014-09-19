@@ -1,12 +1,8 @@
 <?php
 /* Setup */
-include_once $_SERVER["DOCUMENT_ROOT"] . "/include/includes.php";
-$page = "Classfinder";
-$pageTitle = "Classfinder 2.0";
+include_once $_SERVER["DOCUMENT_ROOT"] . "Classfinder/include/includes.php";
 
-$pageSpecificStyles = <<<EOT
-<link rel="stylesheet" type="text/css" href="/css/styles.php?site=Classfinder" ?>
-EOT;
+$pageTitle = "Classfinder 2.0";
 
 ?>
 
@@ -19,7 +15,7 @@ EOT;
 
     <?php
         include_once "$docRoot/include/sideNav.php";
-        include_once "$docRoot/$page/content.php";
+        include_once "$docRoot/content.php";
     ?>
 
 </body>
