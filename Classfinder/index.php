@@ -22,5 +22,3 @@ $pageTitle = "Classfinder 2.0";
 <?php include_once "$docRoot/include/jsInclude.php"; ?>
 
 </html>
-
-<?php include_once "$docRoot/include/dbEnd.php"; ?>
