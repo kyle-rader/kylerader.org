@@ -17,7 +17,7 @@ $pageTitle = 'Home';
 	?>
 	<div id="mainWrapper">
 		<div id="header">
-			<h3>A BETTER CLASSFINDER <small>by Kyle W Rader</small></h3>
+			&nbsp;
 		</div>
 		<div id="content">
 			<?php
