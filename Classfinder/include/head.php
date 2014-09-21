@@ -1,12 +1,12 @@
 <head>
 <?php
-$title = isset($pageTitle) ? $pageTitle : 'WWU Classfinder';
+$title = 'WWU Classfinder 2.0';
 
 $head = <<<EOT
 <title>$title</title>
 <link rel="stylesheet" type="text/css" href="/css/hero-font.css" />
 <link rel="stylesheet" type="text/css" href="/css/f-icons/foundation-icons.css" />
-<link rel="stylesheet" type="text/css" href="/css/reboot.css" />
+<link rel="stylesheet" type="text/css" href="/Classfinder/css/lessStyles.php" />
 
 EOT;
 

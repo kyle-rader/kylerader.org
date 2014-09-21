@@ -1,4 +1,5 @@
 @font-face {
     font-family: HeroLight;
+    font-weight: 100;
     src: url(/css/fonts/hero_light.otf);
 }

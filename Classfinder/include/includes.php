@@ -7,8 +7,11 @@ include_once "$docRoot/include/utilityFunctions.php";
 
 $terms = Array();
 $terms['nav-items'] = Array(
-    '/' => 'HOME',
-    '/Hack' => 'WWU CS HACKATHON',
-    '/Classfinder' => 'CLASSFINDER 2.0',
-    '/Resume' => 'RESUME',
-    '/Resources' => 'RESOURCES');
+    '/Classfinder' => 'HOME',
+    '/Classfinder/Search' => 'SEARCH',
+    '/Classfinder/MySchedule' => 'MY SCHEDULE');
+
+$terms['footer-links'] = Array(
+	'https://kylerader.org' => 'Back to KyleRader.org',
+	'https://www.wwu.edu' => 'WWU Home');
+

@@ -1,19 +1,25 @@
 <?php
 $docRoot = $_SERVER['DOCUMENT_ROOT'];
-if(!isset($_GET['site'])) {
-    header("HTTP/1.0,0 400 Missing Argument:site");
+$files = array();
+
+if(!isset($_GET['files'])) {
+    header("HTTP/1.0,0 400 Missing Argument:files");
     exit();
 }
-else if(!file_exists("$docRoot/" . $_GET['site'])) {
-    header("HTTP/1.0,0 404 Bad Argument: '" . $_GET['site'] . "' does not exist.");
-    exit();
+else {
+
+    foreach(explode($_GET['files']) as $file) {
+        if(!exists("$docRoot/css/$file.less")) {
+            header("HTTP/1.0,0 404 Bad Argument: \"$file\" does not exist.");
+            exit();
+        } else {
+            $files[] = $file;
+        }
+    }
 }
-$site = $_GET['site'];
 
 if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler");
 else ob_start();
-
-include_once "$docRoot/$site/css/lessFiles.php";
 
 $time = mktime(0,0,0,21,5,1980);
 $cache = 'cache.css';

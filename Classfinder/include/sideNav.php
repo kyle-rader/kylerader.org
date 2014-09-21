@@ -1,4 +1,4 @@
-<nav class="SideNav">
+<nav id="sideNav">
     <ul>
     <?php
         foreach($terms['nav-items'] as $url => $name) {
