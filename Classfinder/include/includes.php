@@ -10,7 +10,8 @@ $terms['nav-items'] = Array(
     '/Classfinder' => 'HOME',
     '/Classfinder/Search' => 'SEARCH',
     '/Classfinder/MySchedule' => 'MY SCHEDULE',
-    '/' => 'Back To KyleRader.org');
+    '/' => 'Back To KyleRader.org',
+    '/Classfinder/RequestaFeature' => 'Request a Feature');
 
 $terms['footer-links'] = Array(
 	'https://kylerader.org' => 'Back to KyleRader.org',
