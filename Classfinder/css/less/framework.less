@@ -2,12 +2,10 @@ html, body {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	background-color: transparent;
+	background-color: #fff;
 }
 html {
 	position: fixed;
-	background-image: url(/Classfinder/img/lightSmoke.png);
-	background-position: fixed;
 }
 
 #mainWrapper {
@@ -17,11 +15,12 @@ html {
 	position: relative;
 
 	#header {
-
+		a {
+			
+		}
 	}
 
 	#content {
-		padding-top: 15px;
 		padding-bottom: @footer-height;
 		height: 100%;
 	}
@@ -32,7 +31,6 @@ html {
 		position: absolute;
 		bottom: 0;
 		font-size: @font-size-smaller;
-		padding-top:15px;
 
 		i {
 			font-size: @icon-font-size;
@@ -106,5 +104,43 @@ ul.footer-icons {
 	i.fi-mail:hover {
 		color: #bbb;
 		.transition(color .2s linear);
+	}
+}
+
+div.units-row {
+	padding-top: 15px;
+}
+
+hr {
+	&.hr-bar-red {
+		height:1px;
+		maring-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom: 4px;
+		background-color: @color-western-red;
+	}
+
+	&.hr-bar-green {
+		height:1px;
+		maring-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom: 4px;
+		background-color: @color-western-green;
+	}
+
+	&.hr-bar-light-green {
+		height:1px;
+		maring-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom: 4px;
+		background-color: @color-western-light-green;
+	}
+
+	&.hr-bar-orange {
+		height:1px;
+		maring-top: 5px;
+		margin-bottom: 5px;
+		padding-bottom: 4px;
+		background-color: @color-western-orange;
 	}
 }

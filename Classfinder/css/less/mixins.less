@@ -207,7 +207,6 @@
 		background: @color-dark;
 	}
 
-
 	&.btn-active {
 		box-shadow: 0 1px 4px rgba(0, 0, 0, @active-shadow) inset;
 	}
@@ -244,5 +243,17 @@
 		color: rgba(red(@color), green(@color), blue(@color), .6);
 		border: none;
 		box-shadow: 0 1px 3px rgba(red(@color-dark), green(@color-dark), blue(@color-dark), .6) inset;
+	}
+}
+
+.make-transition-btn(@color, @color-hover, @color-text) {
+	color: @color-text;
+	background: @color;
+	.transition(background-color .2s linear);
+
+	&:hover {
+		color: @color-text;
+		background: @color-hover;
+		.transition(background-color .2s linear);
 	}
 }

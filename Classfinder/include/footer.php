@@ -1,5 +1,6 @@
 <div class="units-row">
-    <div class="unit-centered unit-60">
+    <div class="unit-centered unit-80">
+        <hr class="hr-bar-red">
         <div class="units-row">
             <div class="unit-20">
                 <ul class="blocks-6 footer-icons">

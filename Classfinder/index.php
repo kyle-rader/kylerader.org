@@ -17,7 +17,9 @@ $pageTitle = 'Home';
 	?>
 	<div id="mainWrapper">
 		<div id="header">
-			&nbsp;
+			<?php
+				include_once "$docRoot/include/topBar.php";
+			?>
 		</div>
 		<div id="content">
 			<?php
