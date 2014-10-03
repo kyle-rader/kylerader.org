@@ -1,5 +1,5 @@
 <?php
-$docRoot = $_SERVER['DOCUMENT_ROOT'] . "Classfinder";
+$docRoot = $_SERVER['DOCUMENT_ROOT'];
 include_once "$docRoot/include/utilityFunctions.php";
 
 $files = array('mixins', 'variables', 'reset', 
@@ -44,7 +44,7 @@ if(!$recache && isset($_SERVER['If-Modified-Since']) && strtotime($_SERVER['If-M
     header("HTTP/1.0 304 Not Modified");
 } else {
     header('Content-type: text/css');
-    header('Last-Modified: ' . gmdate("D, d M Y H:i:s",$time) . " GMT");
+    header('Last-Modified: ' . gmdate("D, d M Y H:i:s", $time) . " GMT");
 
     if($recache) {
         require "$docRoot/less.php/Less.php";
