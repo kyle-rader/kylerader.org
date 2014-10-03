@@ -17,9 +17,12 @@ $pageTitle = 'Home';
 	?>
 	<div id="mainWrapper">
 		<div id="header">
-			<div class="units-container text-centered">
+			<div class="text-centered">
 				<div class="units-row">
-					<h1>You have reached Kyle's website.</h1>
+					<div class="unit-centered unit-80">
+						<h2>You have reached Kyle's website</h2>
+						<hr class="hr-bar-blue">
+					</div>
 				</div>
 			</div>
 		</div>

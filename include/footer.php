@@ -1,6 +1,6 @@
 <div class="units-row">
     <div class="unit-centered unit-80">
-        <hr class="hr-bar-red">
+        <hr class="hr-bar-green">
         <div class="units-row">
             <div class="unit-20">
                 <ul class="blocks-6 footer-icons">
@@ -22,7 +22,7 @@
             <div class="unit-30">
                 <p>
                 This website uses the <a href="http://imperavi.com/kube/">Kube</a> CSS framework. Check it out!<br>
-                Also <span style="font-family:HeroLight;">This AWESOME Font!</span> from <a target="_blank" href="http://fontfabric.com">Font Fabric</a>
+                Also <span style="font-family:HeroLight;">This AWESOME Font</span> from <a target="_blank" href="http://fontfabric.com/hero-free-font/">Font Fabric</a>
                 </p>
             </div>
             <div class="unit-20">

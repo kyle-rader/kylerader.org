@@ -18,7 +18,7 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandl
 else ob_start();
 
 $time = mktime(0,0,0,21,5,1980);
-$cache = "$docRoot/css/cache.css";
+$cache = "$docRoot/css/cache/less.out.css";
 
 foreach($files as $file) {
     $fileTime = filemtime("$docRoot/css/less/$file.less");
