@@ -32,6 +32,7 @@
             </div>
             <div class="large-10 columns">
                 <ul class="button-group">
+                    <li><a href="http://www.ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;">Best Git Cheatsheet</a></li>
                     <li><a class="button small" target="_blank" href="http://www.synapse.com/wall-of-cool">All the Cool Things Are Here</a></li>
                     <li><a class="button small" target="_blank" href="http://xamarin.com/">Xamarin</a></li>
                     <li><a class="button small" target="_blank" href="http://d3js.org/">D3.js</a></li>

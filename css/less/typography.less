@@ -75,7 +75,9 @@ h6,
 	font-size: @font-size-h6-lg;
 	text-transform: uppercase;
 }
-
+.bold {
+	font-weight: bold;
+}
 
 /* =Lead
 -----------------------------------------------------------------------------*/
@@ -116,8 +118,8 @@ ol ol li {
 ol ol ol li {
 	list-style-type: lower-roman;
 }
-ul .list-spaced li + li {
-	padding-top: 15px;
+ul.list-spaced li + li {
+	padding-top: 1px;
 }
 p,
 ul,
@@ -414,4 +416,15 @@ table {
 	tfoot td {
 		color: rgba(0, 0, 0, .4);
 	}
+}
+/* =Colors
+-----------------------------------------------------------------------------*/
+.blue-text {
+	color: @color-blue;
+}
+.green-text {
+	color: @color-green;
+}
+.red-text {
+	color: @color-red;
 }
