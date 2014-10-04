@@ -53,11 +53,12 @@
                     <span class="forms-desc">Shirts, coffee cups, water bottles, etc - Anything you want!</span>
                 </label>
             </div>
+            <h4>Sending a Judge?</h4>
             <div class="units-row forms-row">
                 <label class="unit-25">
-                    Sending a Judge?
+                    Judge Name
                     <input type="text" name="judgeName" />
-                    <span class="forms-desc">Judge Name</span>
+                    <span class="forms-desc"></span>
                 </label>
                 <label class="unit-25">
                     Judge Email

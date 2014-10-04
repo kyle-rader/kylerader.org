@@ -55,7 +55,7 @@ class HackathonCompany {
 
     static function LoadCompanyFromName($mysqli, $companyNameToFind) {
         $data = array();
-        $sql = "SELECT * FROM HackathonCompanies WHERE companyName = `?`";
+        $sql = "SELECT * FROM HackathonCompanies WHERE companyName = ?";
         if($stmt = $mysqli->prepare($sql)) {
             $stmt->bind_param("i", $companyNameToFind);
             $stmt->execute();
