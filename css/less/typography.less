@@ -118,8 +118,14 @@ ol ol li {
 ol ol ol li {
 	list-style-type: lower-roman;
 }
-ul.list-spaced li + li {
-	padding-top: 1px;
+ul, ol {
+	&.list-spaced li + li {
+		padding-top: 10px;
+	}
+
+	&.list-spaced-large li + li {
+		padding-top:20px;
+	}
 }
 p,
 ul,
