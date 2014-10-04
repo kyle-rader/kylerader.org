@@ -54,9 +54,9 @@
         <div class="units-row">
             <h4>Register Below!</h4>
             <a class="btn btn-blue" href="/Hack/JoinTeam">Join a Team</a>
-            <a class="btn btn-blue" href="javascript:alert('Team Registration is under construction.');">Register a Team</a>
+            <a class="btn btn-blue" href="/Hack/TeamRegistration">Register a Team</a>
             <a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a>
-            <a class="btn btn-blue" href="javascript:alert('Mentor Registration is under construction.');">Mentor Registration</a>
+            <a class="btn btn-blue" href="/Hack/MentorRegistration">Mentor Registration</a>
         </div>
     </div>
 </div>
