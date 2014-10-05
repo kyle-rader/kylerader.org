@@ -30,8 +30,8 @@ if($success) {
     $data['judgeEmail'] = $_GET['judgeEmail'];
     $data['judgePosition'] = $_GET['judgePosition'];
     $data['judgeAttendOpeningLunch'] = isset($_GET['judgeAttendOpeningLunch']) ? 'Yes' : 'No';
-
-    if(($company = HackathonCompany::LoadCompanyFromName($mysqli, $data['companyName'])) != null) {
+    $company = HackathonCompany::LoadCompanyFromName($mysqli, $data['companyName']);
+    if($company != null) {
         $content = <<<EOT
 <h3>Oops, {$company->companyName} is already registered!</h3>
 EOT;
@@ -39,6 +39,7 @@ EOT;
         $content = <<<EOT
 <h3>{$data['companyName']}, Thank you for registering to participate in the Fall 2014 WWU CS Hackathon!</h3>
 EOT;
+    }
 } else {
     $content = <<<EOT
 <h3>Oops, There was a problem with your registration.</h3
@@ -87,3 +88,4 @@ EOT;
 </html>
 
 <?php include_once "$docRoot/include/dbEnd.php"; ?>
+

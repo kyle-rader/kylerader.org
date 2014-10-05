@@ -57,7 +57,7 @@ class HackathonCompany {
         $data = array();
         $sql = "SELECT * FROM HackathonCompanies WHERE companyName = ?";
         if($stmt = $mysqli->prepare($sql)) {
-            $stmt->bind_param("i", $companyNameToFind);
+            $stmt->bind_param("s", $companyNameToFind);
             $stmt->execute();
             $stmt->bind_result($id, $companyName, $contactName, $contactEmail, $companySize, $sponsorPledge, $swag, $judgeName, $judgeEmail, $judgePosition, $judgeAttendOpeningLunch);
             if($stmt->fetch()) {
@@ -110,4 +110,3 @@ EOT;
     }
 
 }
-?>
