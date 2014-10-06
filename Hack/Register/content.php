@@ -4,11 +4,11 @@
             <h4>Competitor Info </h4><small>If you created a team then you have already registered</small>
             <div class="units-row forms-row">
                 <label class="unit-25">
-                    First Name
+                    First Name <span class="forms-desc">(No spaces allowed)</span>
                     <input type="text" name="firstName" required pattern="[a-zA-Z_]{1,}"/>
                 </label>
                 <label class="unit-25">
-                    Last Name
+                    Last Name <span class="forms-desc">(No spaces allowed)</span>
                     <input type="text" name="lastName" required pattern="[a-zA-Z_]{1,}"/>
                 </label>
                 <label class="unit-50">

@@ -73,7 +73,7 @@ class Competitor {
                 $data['firstName'] = $firstName;
                 $data['lastName'] = $lastName;
                 $data['email'] = $email;
-                $data['class'] = $teamLeadEmail;
+                $data['class'] = $class;
                 $data['school'] = $school;
                 $data['teamId'] = $teamId;
             }
@@ -90,7 +90,7 @@ INSERT INTO Competitors
 (firstName, lastName, email, class, school, teamId)
 VALUES (?, ?, ?, ?, ?, ?)
 EOT;
-            if($stmt = $mysqli->prepare($sql)) {
+            if ($stmt = $mysqli->prepare($sql)) {
                 $stmt->bind_param("ssssss", $this->firstName, $this->lastName, $this->email, $this->class, $this->school, $teamId);
                 if($stmt->execute()) {
                     $sucess = true;
@@ -98,6 +98,20 @@ EOT;
                 }
                 $stmt->close();
             }
+        }
+        return $sucess;
+    }
+
+    function updateTeam($mysqli) {
+        $sucess = false;
+        $sql = "UPDATE Competitors SET teamId = ?";
+        if ($stmt = $mysqli->prepare($sql)) {
+            $stmt->bind_param("i", $this->teamId);
+            if($stmt->execute()) {
+                $sucess = true;
+                $mysqli->commit();
+            }
+            $stmt->close();
         }
         return $sucess;
     }

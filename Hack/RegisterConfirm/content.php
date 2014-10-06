@@ -61,16 +61,15 @@
         <?php
         if ($teamCodeCorrect || $team == null) {
         ?>
-        <form class="forms" action="/Hack/TeamRegistrationSubmit" method="GET">
+        <form class="forms" action="/Hack/RegisterSubmit" method="GET">
             <input class="btn" type="submit" value="Confirm">
             <input type="hidden" name="firstName" value="<?php print $_GET['firstName']; ?>">
             <input type="hidden" name="lastName" value="<?php print $_GET['lastName']; ?>">
             <input type="hidden" name="email" value="<?php print $_GET['email']; ?>">
             <input type="hidden" name="class" value="<?php print $_GET['class']; ?>">
             <input type="hidden" name="school" value="<?php print $_GET['school']; ?>">
-        <?php if ($teamCodeCorrect) { ?>
             <input type="hidden" name="teamId" value="<?php print $_GET['teamId']; ?>">
-        <?php } ?>
+            <input type="hidden" name="teamCode" value="<?php print $_GET['teamCode']; ?>">
         </form>
         <?php
         } else {
