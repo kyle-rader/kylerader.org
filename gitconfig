@@ -1,0 +1,33 @@
+[user]
+	name = kyle-rader
+	email = kyle.rader@ieee.org
+[branch]
+	autosetuprebase = always
+
+[alias]
+	# Pretty branch graphing http://stackoverflow.com/a/9074343
+	lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+	lg = !"git lg1"
+    
+	# Alias suggestions from http://gitimmersion.com/
+	type = cat-file -t
+	dump = cat-file -p
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[core]
+	editor = emacs
+	autocrlf = false
+	safecrlf = true
+	excludesfile = ~/.global_gitignore
+[color]
+        ui = auto
+        diff = auto
+        status = auto
+        branch = auto
+[push]
+        default = simple
+[credential]
+        helper = cache --timeout=3600

@@ -9,17 +9,38 @@ $pageTitle = "WWU CS Hackathon";
 <!DOCTYPE html>
 <html>
 
-<?php include_once "$docRoot/include/header.php"; ?>
+<?php include_once "$docRoot/include/head.php"; ?>
 
 <body>
 
-    <?php
-        include_once "$docRoot/include/sideNav.php";
-        include_once "$docRoot/$page/content.php";
-    ?>
+	<?php 
+		include_once "$docRoot/include/sideNav.php";
+	?>
+	<div id="mainWrapper">
+		<div id="header">
+			<div class="text-centered">
+				<div class="units-row">
+					<div class="unit-centered unit-80">
+						<h3>WWU Fall Hackathon Company Registration</h3>
+						<hr class="hr-bar-blue">
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div id="content">
+			<?php
+	    		include_once "$docRoot/$page/content.php";
+			?>
+		</div>
+    	<div id="footer">
+	        <?php 
+	        	include_once "$docRoot/include/footer.php";
+	        ?>
+    	</div>
+    </div>
+    <?php include_once "$docRoot/include/jsInclude.php"; ?>
 </body>
-<?php include_once "$docRoot/include/jsInclude.php"; ?>
 
 </html>
 

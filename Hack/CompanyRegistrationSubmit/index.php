@@ -17,7 +17,7 @@ isset($_GET['judgeEmail']) &&
 isset($_GET['judgePosition']);
 
 $data = array();
-$content = '';
+$content = "";
 if($success) {
     $data['id'] = 0;
     $data['companyName'] = $_GET['companyName'];
@@ -30,8 +30,8 @@ if($success) {
     $data['judgeEmail'] = $_GET['judgeEmail'];
     $data['judgePosition'] = $_GET['judgePosition'];
     $data['judgeAttendOpeningLunch'] = isset($_GET['judgeAttendOpeningLunch']) ? 'Yes' : 'No';
-
-    if(($company = HackathonCompany::LoadCompanyFromName($mysqli, $data['companyName'])) != null) {
+    $company = HackathonCompany::LoadCompanyFromName($mysqli, $data['companyName']);
+    if($company != null) {
         $content = <<<EOT
 <h3>Oops, {$company->companyName} is already registered!</h3>
 EOT;
@@ -52,18 +52,40 @@ EOT;
 <!DOCTYPE html>
 <html>
 
-<?php include_once "$docRoot/include/header.php"; ?>
+<?php include_once "$docRoot/include/head.php"; ?>
 
 <body>
 
-    <?php
+    <?php 
         include_once "$docRoot/include/sideNav.php";
-        include_once "$docRoot/$page/content.php";
     ?>
+    <div id="mainWrapper">
+        <div id="header">
+            <div class="text-centered">
+                <div class="units-row">
+                    <div class="unit-centered unit-80">
+                        <h3>WWU Fall Hackathon Company Registration</h3>
+                        <hr class="hr-bar-blue">
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div id="content">
+            <?php
+                include_once "$docRoot/$page/content.php";
+            ?>
+        </div>
+        <div id="footer">
+            <?php 
+                include_once "$docRoot/include/footer.php";
+            ?>
+        </div>
+    </div>
+    <?php include_once "$docRoot/include/jsInclude.php"; ?>
 </body>
-<?php include_once "$docRoot/include/jsInclude.php"; ?>
 
 </html>
 
 <?php include_once "$docRoot/include/dbEnd.php"; ?>
+
