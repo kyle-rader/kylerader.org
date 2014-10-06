@@ -9,23 +9,23 @@
         <ul class="list-flat list-spaced-large">
             <li>
                 <h5 class="HeroLight blue-text">First Name:</h5>
-                <?php print "&nbsp;" . $_GET['firstName']; ?>
+                <?php print "&nbsp;" . ($competitor == null ? $_GET['firstName'] : $competitor->firstName) ?>
             </li>
             <li>
                 <h5 class="HeroLight blue-text">Last Name:</h5>
-                <?php print "&nbsp;" . $_GET['lastName']; ?>
+                <?php print "&nbsp;" . ($competitor == null ? $_GET['lastName'] : $competitor->lastName); ?>
             </li>
             <li>
                 <h5 class="HeroLight blue-text">Email:</h5>
-                <?php print "&nbsp;" . $_GET['email']; ?>
+                <?php print "&nbsp;" . ($competitor == null ? $_GET['email'] : $competitor->email); ?>
             </li>
             <li>
                 <h5 class="HeroLight blue-text">Class:</h5>
-                <?php print "&nbsp;" . $_GET['class']; ?>
+                <?php print "&nbsp;" . ($competitor == null ? $_GET['class'] : $competitor->class); ?>
             </li>
             <li>
                 <h5 class="HeroLight blue-text">School:</h5>
-                <?php print "&nbsp;" . $_GET['school']; ?>
+                <?php print "&nbsp;" . ($competitor == null ? $_GET['school'] : $competitor->school); ?>
             </li>
 
             <?php
