@@ -65,6 +65,7 @@
                             <span class="forms-desc">The team lead will have created this when they made the team.</span>
                         </label>
                     </div>
+                    By clicking "Submit" you are agreeing to the <a href="https://support.cs.wwu.edu/index.php/Computer_Science_EULA">WWU Computer Science EULA</a>.<br>
                     <input class="btn" type="submit" name="Submit" />
                 </div>
                 <div class="unit-50">

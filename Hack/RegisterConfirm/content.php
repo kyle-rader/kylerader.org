@@ -61,6 +61,7 @@
         <?php
         if ($teamCodeCorrect || $team == null) {
         ?>
+        By clicking "Confirm" you are agreeing to the <a href="https://support.cs.wwu.edu/index.php/Computer_Science_EULA">WWU Computer Science EULA</a>.<br>
         <form class="forms" action="/Hack/RegisterSubmit" method="GET">
             <ul class="forms-inline-list">
                 <li><a href="javascript: window.history.back();" class="btn btn-blue">Back</a></li>
