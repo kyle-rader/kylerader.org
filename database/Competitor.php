@@ -91,7 +91,7 @@ INSERT INTO Competitors
 VALUES (?, ?, ?, ?, ?, ?)
 EOT;
             if ($stmt = $mysqli->prepare($sql)) {
-                $stmt->bind_param("ssssss", $this->firstName, $this->lastName, $this->email, $this->class, $this->school, $teamId);
+                $stmt->bind_param("sssssi", $this->firstName, $this->lastName, $this->email, $this->class, $this->school, $this->teamId);
                 if($stmt->execute()) {
                     $sucess = true;
                     $mysqli->commit();

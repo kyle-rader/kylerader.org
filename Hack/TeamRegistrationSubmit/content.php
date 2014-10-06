@@ -51,5 +51,6 @@ EOT;
     <?php
     	print $content;
      ?>
+     <a class="btn btn-blue" href="/Hack">Back to Hackathon Info</a>
     </div>
 </div>
