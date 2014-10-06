@@ -1,6 +1,6 @@
 <div class="unit-rows">
     <div class="unit-60 unit-centered">
-        <form class="forms" action="/Hack/RegistrationConfirm/" method="GET">
+        <form class="forms" action="/Hack/RegisterConfirm/" method="GET">
             <h4>Competitor Info </h4><small>If you created a team then you have already registered</small>
             <div class="units-row forms-row">
                 <label class="unit-25">
@@ -61,7 +61,7 @@
                     <div class="units-row forms-row">
                         <label class="unit-100">
                             Team Code
-                            <input type="password" name="teamCode" pattern="[a-zA-Z0-9!@#$%^&*()_+=-]{8,}">
+                            <input type="text" name="teamCode" pattern="[a-zA-Z0-9!@#$%^&*()_+=-]{8,}">
                             <span class="forms-desc">The team lead will have created this when they made the team.</span>
                         </label>
                     </div>

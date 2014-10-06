@@ -1,8 +1,27 @@
 <?php
 /* Setup */
 include_once $_SERVER["DOCUMENT_ROOT"] . "/include/includes.php";
-$page = "Hack/TeamRegistrationConfirm";
+include_once "$docRoot/database/Team.php";
+include_once "$docRoot/database/Competitor.php";
+
+$page = "Hack/RegisterConfirm";
 $pageTitle = "WWU CS Hackathon";
+
+$hasArgs = isset($_GET['firstName'])
+&& isset($_GET['lastName'])
+&& isset($_GET['email'])
+&& isset($_GET['class'])
+&& isset($_GET['school'])
+&& isset($_GET['teamId'])
+&& isset($_GET['teamCode']);
+if (!$hasArgs) {
+	header("Location: /Hack");
+	exit();
+}
+
+$competitor = Competitor::LoadCompetitorFromEmail($mysqli, $_GET['email']);
+$team = Team::LoadTeamFromId($mysqli, $_GET['teamId']);
+$teamCodeCorrect = $team != null ? $team->checkTeamCode($_GET['teamCode']) : false;
 
 ?>
 

@@ -52,7 +52,7 @@ class Team {
             }
             $stmt->close();
         }
-        return new Team($data);
+        return count($data) > 0 ? new Team($data) : null;
     }
 
     static function LoadTeamFromName($mysqli, $teamNameToFind) {
@@ -109,7 +109,8 @@ EOT;
     }
 
     function checkTeamCode($codeToCheck) {
-        return md5($codeToCheck) == $this->teamCode;
+        $codeToCheck = md5($codeToCheck);
+        return strcmp($codeToCheck, $this->teamCode) === 0;
     }
 }
 ?>
