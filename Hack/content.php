@@ -13,7 +13,7 @@
                     their interest!  There will be free food, conversation, and swag!
                     </li>
                     <li><h4 class="blue-text bold">How</h4>
-                    You will form a team prior to or preferably at the start of the hackathon.  Your team must have an idea for a thing
+                    Form a team prior to or preferably at the start of the hackathon.  Your team must have an idea for a thing
                     that would be useful to students/faculty/staff at your school.  It could be a mobile app, a desktop app, a website, a
                     command line program whatever you want!
                     You will have exactly 24 hours to build a prototype or a full fledged app and practice pitching it.  At the
@@ -22,11 +22,6 @@
                     </li>
                     <li><span class="blue-text">TLDR:</span>
                     You.  Form team.  Build app/website/service in 24 hours.  Pitch it.  Win prizes! Network with companies!
-                    </li>
-                    <li><h4 class="blue-text bold">Registration</h4>
-                        Step 1 ><a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a>
-                        Step 2 ><a class="btn btn-blue" href="/Hack/Register">Register</a>
-                        <a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a>                        
                     </li>
                 </ul>
             </div>
@@ -55,6 +50,13 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="units-rows">
+            <h5 style="display: inline-block; vertical-align:5px;">Step 1</h5><i class="fi-arrow-right" style="padding: 5px 10px 0px 10px; display:inline-block; font-size:2em;"></i>
+            <a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a>
+            <h5 style="display: inline-block; vertical-align:5px;">&nbsp;Step 2</h5><i class="fi-arrow-right" style="padding: 5px 10px 0px 10px; display:inline-block; font-size:2em;"></i>
+            <a class="btn btn-blue" href="/Hack/Register">Register</a>
+            <a class="btn btn-blue right" href="/Hack/CompanyRegistration">Company Registration</a> 
         </div>
     </div>
 </div>
