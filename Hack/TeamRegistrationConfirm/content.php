@@ -1,5 +1,5 @@
 <div class="units-row">
-    <div class="unit-centered unit-80">
+    <div class="unit-centered unit-60">
         <h3>Please confirm your information</h3>
         <ul class="list-flat list-spaced-large">
             <li>

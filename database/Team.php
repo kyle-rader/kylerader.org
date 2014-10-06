@@ -71,7 +71,8 @@ INSERT INTO Teams
 VALUES (?, ?, ?, ?, ?, ?)
 EOT;
             if($stmt = $mysqli->prepare($sql)) {
-                $stmt->bind_param("ssssss", $this->teamName, $this->teamLeadFirstName, $this->teamLeadLastName, $this->teamLeadEmail, $this->teamLeadClass, md5($this->teamCode));
+                $teamCode = md5($this->teamCode);
+                $stmt->bind_param("ssssss", $this->teamName, $this->teamLeadFirstName, $this->teamLeadLastName, $this->teamLeadEmail, $this->teamLeadClass, $teamCode);
                 if($stmt->execute()) {
                     $sucess = true;
                     $mysqli->commit();
