@@ -20,14 +20,28 @@ class Team {
         $this->teamCode = $data['teamCode'];
     }
 
+    static function LoadTeams($mysqli) {
+        $teams = array();
+        $sql = 'SELECT id, teamName, teamLeadFirstName, teamLeadLastName FROM Teams';
+        if ($stmt = $mysqli->prepare($sql)) {
+            $stmt->execute();
+            $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName);
+            while ($stmt->fetch()) {
+                $teams[$id] = array('teamName' => $teamName, 'teamLeadFirstName' => $teamLeadFirstName, 'teamLeadLastName' => $teamLeadLastName);
+            }
+            $stmt->close();
+        }
+        return $teams;
+    }
+
     static function LoadTeamFromId($mysqli, $teamId) {
         $data = array();
         $sql = 'SELECT * FROM Teams WHERE id = ?';
-        if($stmt = $mysqli->prepare($sql)) {
+        if ($stmt = $mysqli->prepare($sql)) {
             $stmt->bind_param("i", $teamId);
             $stmt->execute();
             $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName, $teamLeadEmail, $teamLeadClass, $teamCode);
-            if($stmt->fetch()) {
+            if ($stmt->fetch()) {
                 $data['id'] = $id;
                 $data['teamName'] = $teamName;
                 $data['teamLeadFirstName'] = $teamLeadFirstName;
@@ -44,11 +58,11 @@ class Team {
     static function LoadTeamFromName($mysqli, $teamNameToFind) {
         $data = array();
         $sql = "SELECT * FROM Teams WHERE teamName = ?";
-        if($stmt = $mysqli->prepare($sql)) {
+        if ($stmt = $mysqli->prepare($sql)) {
             $stmt->bind_param("s", $teamNameToFind);
             $stmt->execute();
             $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName, $teamLeadEmail, $teamLeadClass, $teamCode);
-            if($stmt->fetch()) {
+            if ($stmt->fetch()) {
                 $data['id'] = $id;
                 $data['teamName'] = $teamName;
                 $data['teamLeadFirstName'] = $teamLeadFirstName;
