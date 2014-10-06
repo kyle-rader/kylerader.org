@@ -12,9 +12,13 @@ body {
 -----------------------------------------------------------------------------*/
 a {
 	color: @color-link;
+	text-decoration: none;
 	&:focus,
 	&:hover {
 		color: @color-link-hover;
+	}
+	&:hover {
+		text-decoration: underline;
 	}
 }
 

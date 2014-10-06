@@ -12,127 +12,109 @@
         </div>
     </div>
     <div class="unit-80 unit-centered">
-        <ul class="list-flat list-spaced-large resume-list">
+        <ul class="list-flat resume-list">
             <li>
-                <h4>EDUCATION</h4>
+                <div class="units-row">
+                    <div class="unit-20">
+                        <h4>EDUCATION</h4>
+                    </div>
+                    <div class="unit-80">
+                    Western Washington University, Bellingham, Wa.<br>
+                    B.S. in Computer Science (June 2014). Minors in Math and Embedded Systems<br>
+                    Class of 2015: M.S. in Computer Science.
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="units-row">
+                    <div class="unit-20">
+                        <h4>LANGUAGES</h4>
+                    </div>
+                    <div class="unit-80">
+                    C#, C, Java, Ruby, PHP, Javascript, HTML, CSS, <img src="/img/latex.png" style="width:75px; vertical-align:bottom;"><br>
+                    I don't believe in having a "favorite language".  Each is a hammer for a set of nails.  I solve problems in the language required.
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="units-row">
+                    <div class="unit-20">
+                        <h4>EXPERIENCE</h4>
+                    </div>
+                    <div class="unit-80">
+                        <ul class="list-flat list-spaced-large">
+                            <li><h5><a href="https://uzility.com">UZILITY</a> | Director of Engineering</h5> <span class="right">December 2013 - present</span><br>
+                                <hr class="hr-bar-blue">
+                                Innovating tools for the process of agile project management.<br>
+                                Practicing lean start-up methodology and agile software developement.<br>
+                                Utilizing Zurb's Foundation CSS framework.  Web services are developed with PHP and MySQL.<br>
+                            </li>
+                            <li><h5><a href="https://cse.wwu.edu/computer-science">WWU, Computer Science Dept.</a> | Graduate Lab TA</h5> <span class="right">September 2014 - present</span><br>
+                                <hr class="hr-bar-blue">
+                                As a graduate teaching assistant I am responsible for designing and editing, writing, and grading homework and labs.<br>
+                                I currently teach two lab sections of CSCI 145 Intro to Programming II and two lab sections of CSCI 301 Formal Language and Functional Programming.<br>
+                            </li>
+                            <li><h5><a href="http://www.brertechnical.com/">Brer Technical</a> | Lead Software Engineer</h5> <span class="right">April 2012 - April 2014</span><br>
+                                <hr class="hr-bar-blue">
+                                Designed and implemented software infrastructure for safety monitoring in manufacturing plants.
+                                Included real-time collection of sensor data, design and administration of cloud-based and SQLite databases with appropriate APIs,
+                                automatic generation of safety reports, and creating GUI-based tools to analyze the data.  Development followed Agile methodology,
+                                primarily in C# and databases languages.  Also built up a team to extend and maintain system.<br>
+                            </li>
+                            <li><h5><a href="https://cse.wwu.edu/computer-science">WWU, Computer Science Dept.</a> | Undergraduate Lab TA</h5> <span class="right">September 2011 - June 2014</span><br>
+                                <hr class="hr-bar-blue">
+                                As an undergraduate TA I was responsible for running scheduled lab sessions, lecturing in lab as needed and grading lab assignments.  I would often hold well attended extra lab hours 
+                                on the weekends.
+                            </li>
+                            <li><h5><a href="https://www.logos.com/">Logos Research Systems</a> | Software Engineer</h5> <span class="right">June 2013 - January 2014</span><br>
+                                <hr class="hr-bar-blue">
+                                Converted an internal devops website from Node.js to Ruby on Rails.  Scalability and modularity were important in the design
+                                of the new Rails site.
+                                DevOps tools within the site included RabbitMQ messaging services, MySQL cluster management, and schema migration tools.<br>
+                            </li>
+                            <li><h5><a href="http://geometrictomography.com/">WWU, Mathematics Dept</a> | Research Assitant</h5> <span class="right">August 2011 - June 2013</span><br>
+                                <hr class="hr-bar-blue">
+                                Adapted a GUI geotomographich program in Matlab to accept real-world Xray data and produce approximate reconstructions.
+                                Greatly improved visual display of algorithm process with the addition of real time graphing during reconstruction.<br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="units-row">
+                    <div class="unit-20">
+                        <h4>AWARDS</h4>
+                    </div>
+                    <div class="unit-80">
+                        <ul class="list-flat">
+                            <li>WWU Computer Science Citizenship Award <span class="right">June 2014</span></li>
+                            <li>Technology Alliance Group: <a target="_blank" href="http://www.tagnw.org/2013-tech-awards-honorees/">Technology Leader of Tomorrow</a> <span class="right">December 2013</span></li>
+                            <li>WWU Computer Science Citizenship Scholarship <span class="right">September 2013</span></li>
+                            <li>Logos Research Systems Scholarship <span class="right">September 2012</span></li>
+                            <li>Dealer Information Systems Scholarship <span class="right">September 2011</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="units-row">
+                    <div class="unit-20">
+                        <h4>VOLUNTEERING</h4>
+                    </div>
+                    <div class="unit-80">
+                        <ul class="list-flat">
+                            <li>WWU ACM Activities Coordinator <span class="right">January 2013 - present</span></li>
+                            <li>WWU ACM Mentor (tutor).<span class="right">Fall 2012, Spring 2013</span></li>
+                            <li>CCDC / Cyber Defense Club <span class="right">September 2012 - June 2013</span></li>
+                            <li>WWU Robotics Club President <span class="right">September 2010 - June 2012</span></li>
+                            <li>WWU IEEE Vice Chair <span class="right">September 2011 - June 2012</span></li>
+                            <li>Associated Students Inter Club Council: Academic Representative <span class="right">September 2010 - June 2011</span></li>
+                            <li>Jr. Supervisor Bellingham A.I. and Robotics Society. <span class="right">January 2011 - January 2013</span></li>
+                        </ul>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>
 </div>
-<?php
-/*
-        </div>
-        <!-- EDUCATION -->
-        <div class="row dark-bg">
-            <div class="large-2 medium-4 columns">
-                <h4 class="green-text">Education</h4>
-            </div>
-            <div class="large-10 medium-12 columns">
-                <p>
-                    Western Washington University, Bellingham, Wa (gpa: 3.44/4.0).<br>
-                    B.S. in Computer Science (June 2014). Minors in Math and Embedded Systems<br>
-                    Class of 2015: M.S. in Computer Science.
-                </p>
-            </div>
-        </div>
-        <!-- LANGUAGES -->
-        <div class="row dark-bg">
-            <div class="large-2 medium-4 columns">
-                <h4 class="green-text">Languages</h4>
-            </div>
-            <div class="large-10 medium-12 columns">
-                <p>
-                    Experienced<br>
-                    C#, C, Java, Ruby, PHP, Javascript, HTML, CSS, <img src="/img/latex.png" style="width:75px; vertical-align:bottom;">
-                </p>
-            </div>
-        </div>
-        <!-- EXPERIENCE -->
-        <div class="row dark-bg">
-            <div class="large-2 medium-4 columns">
-                <h4 class="green-text">Experience</h4>
-            </div>
-            <div class="large-10 medium-12 columns">
-                <ul class="spaced">
-                    <li><h6><a href="https://uzility.com">UZILITY</a> | Director of Engineering</h6> <span class="right">December 2013 - present</span><br>
-                        <p>Innovating tools for the process of agile project management.</p>
-                        <p>Practicing lean start-up methodology and agile software developement.</p>
-                        <p>Utilizing Zurb's Foundation CSS framework.  Web services are developed with PHP and MySQL.</p>
-                    </li>
-                    <li><h6><a href="https://cse.wwu.edu/computer-science">WWU, Computer Science Dept</a> | Lab TA</h6> <span class="right">September 2011 - present</span><br>
-                        <p>Plan, run, critique, and grade, labs and homework.</p>
-                        <p>Courses: Intro to Programming I & II, Intro to Robotics</p>
-                        <p>(Graduate TA as of Sept 2014)</p>
-                    </li>
-                    <li><h6><a href="http://www.brertechnical.com/">Brer Technical</a> | Lead Software Engineer</h6> <span class="right">April 2012 - April 2014</span><br>
-                        <p>Designed and implemented software infrastructure for safety monitoring in manufacturing plants.
-                        Included real-time collection of sensor data, design and administration of cloud-based and SQLite databases with appropriate APIs,
-                        automatic generation of safety reports, and creating GUI-based tools to analyze the data.  Development followed Agile methodology,
-                        primarily in C# and databases languages.  Also built up a team to extend and maintain system.</p>
-                    </li>
-                    <li><h6><a href="https://www.logos.com/">Logos Research Systems</a> | Software Engineer</h6> <span class="right">June 2013 - January 2014</span><br>
-                        <p>Converted an internal devops website from Node.js to Ruby on Rails.  Scalability and modularity were important in the design
-                        of the new Rails site.
-                        </p>
-                        <p>DevOps tools within the site included RabbitMQ messaging services, MySQL cluster management, and schema migration tools.</p>
-                        </p>
-                    </li>
-                    <li><h6><a href="http://geometrictomography.com/">WWU, Mathematics Dept</a> | Research Assitant</h6> <span class="right">August 2011 - June 2013</span><br>
-                            <p>Adapted a GUI geotomographich program in Matlab to accept real-world Xray data and produce approximate reconstructions.</p>
-                            <p>Greatly improved visual display of algorithm process with the addition of real time graphing during reconstruction.</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- AWARDS -->
-        <div class="row dark-bg">
-            <div class="large-2 medium-4 columns">
-                <h4 class="green-text">Awards</h4>
-            </div>
-            <div class="large-10 medium-12 columns">
-                <ul>
-                    <li>WWU Computer Science Citizenship Award <span class="right">June 2014</span></li>
-                    <li>Technology Alliance Group: Technology Leader of Tomorrow <span class="right">December 2013</span></li>
-                    <li>WWU Computer Science Citizenship Scholarship <span class="right">September 2013</span></li>
-                    <li>Logos Research Systems Scholarship <span class="right">September 2012</span></li>
-                    <li>Dealer Information Systems Scholarship <span class="right">September 2011</span></li>
-                </ul>
-            </div>
-        </div>
-        <!-- VOLUNTEER SERVICE -->
-        <div class="row dark-bg">
-            <div class="large-2 medium-4 columns">
-                <h4 class="green-text">Volunteer Service</h4>
-            </div>
-            <div class="large-10 medium-12 columns">
-                <ul>
-                    <li>Jr. Supervisor Bellingham A.I. and Robotics Society. <span class="right">January 2011 - January 2013</span></li>
-                    <li>WWU ACM mentor. Tutor students in intro level computer science courses. <span class="right">Ongoing</span></li>
-                </ul>
-            </div>
-        </div>
-        <!-- EXTRA-CURRICULAR ACTIVITIES -->
-        <div class="row dark-bg">
-            <div class="large-2 medium-4 columns">
-                <h4 class="green-text">Volunteer Service</h4>
-            </div>
-            <div class="large-10 medium-12 columns">
-                <ul>
-                    <li>WWU ACM Activities Coordinator <span class="right">June 2013 2011 - present</span></li>
-                    <li>CCDC / Cyber Defense Club <span class="right">September 2012 - June 2013</span></li>
-                    <li>WWU Robotics Club President <span class="right">September 2010 - June 2012</span></li>
-                    <li>WWU IEEE Vice Chair <span class="right">September 2011 - June 2012</span></li>
-                    <li>Associated Students Inter Club Council: Academic Representative <span class="right">September 2010 - June 2011</span></li>
-                </ul>
-            </div>
-        </div>
-        <br>
-    </div>
-
-    <div id="footer">
-        <?php include_once "$docRoot/include/footer.php"; ?>
-    </div>
-</div>
-
-*/
-?>
