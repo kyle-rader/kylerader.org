@@ -24,8 +24,8 @@
                     You.  Form team.  Build app/website/service in 24 hours.  Pitch it.  Win prizes! Network with companies!
                     </li>
                     <li><h4 class="blue-text bold">Registration</h4>
-                        <a class="btn btn-blue" href="/Hack/Register">Register</a>
-                        <a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a>
+                        Step 1 ><a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a>
+                        Step 2 ><a class="btn btn-blue" href="/Hack/Register">Register</a>
                         <a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a>                        
                     </li>
                 </ul>

@@ -1,7 +1,7 @@
 <div class="units-row">
     <div class="unit-80 unit-centered">
-        <div class="units-row">
-            <div class="unit-33">
+        <ul class="blocks-3">
+            <li>
                 <h4>Coding</h4><hr>
                 <ul class="list-flat">
                     <li><a class="button small" target="_blank" href="https://www.codeschool.com/">Code School</a></li>
@@ -12,8 +12,8 @@
                     <li><a class="button small" target="_blank" href="https://www.udacity.com/course/cs101">Stanford Intro to CS</a></li>
                     <li><a class="button small" target="_blank" href="https://coderdojo.com/">Code Dojo</a></li>
                 </ul>
-            </div>
-            <div class="unit-33">
+            </li>
+            <li>
                 <h4>Cool Things</h4><hr>
                 <ul class="list-flat">
                     <li><a href="http://www.ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;">Best Git Cheatsheet</a></li>
@@ -26,8 +26,8 @@
                     <li><a class="button small" target="_blank" href="http://www.nand2tetris.org/">Nand to Tetris</a></li>
                     <li><a class="button small" target="_blank" href="https://koding.com/Activity">Koding</a></li>
                 </ul>
-            </div>
-            <div class="unit-33">
+            </li>
+            <li>
                 <h4>Western</h4><hr>
                 <ul class="list-flat">
                     <li><a class="button small" target="_blank" href="https://cse.wwu.edu/computer-science">WWU Computer Science</a></li>
@@ -36,7 +36,7 @@
                     <li><a class="button small" target="_blank" href="http://www.wwu.edu/wwuarchitect/pages/fd/pdf/campusfloorplans/CF04W001.pdf">Dept 4th Floor</a></li>
                     <li><a class="button small" target="_blank" href="http://www.wwu.edu/wwuarchitect/pages/fd/pdf/campusfloorplans/CF01W001.pdf">Dept 1st Floor</a></li>
                 </ul>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 </div>
