@@ -1,17 +1,26 @@
-<div id="mainWrapper" class="dark-bg">
-    <div id="header" >
+<div class="units-row">
+    <div class="unit-80 unit-centered">
+        <div class="units-row">
+            <div class="unit-50">
+                <h3>Kyle W. Rader</h3>
+                <a class="btn btn-blue transition" href="https://github.com/kyle-rader/resume/blob/master/Kyle_Rader_Resume.pdf?raw=true">Download as PDF</a>
+            </div>
+            <div class="unit-50 text-right">
+                <p>835 N State St Apt 310 Bellingham, WA 98225<br>
+                <a href="mailto:kyle.rader+webResume@ieee.org">kyle.rader@ieee.org</a> | (425) 241 - 7977</p>
+            </div>
+        </div>
     </div>
-
-    <div id="content">
-        <div class="row dark-bg">
-            <div class="large-4 medium-5 columns">
-                <h1>Kyle W. Rader</h1>
-                <a class="button" href="https://github.com/kyle-rader/resume/blob/master/Kyle_Rader_Resume.pdf?raw=true">Download PDF</a>
-            </div>
-            <div class="large-offset-3 large-5 medium-offset-1 medium-6 columns">
-                <p>835 N State St Apt 310 Bellingham, WA 98225</p>
-                <p><a href="mailto:kyle.rader+webResume@ieee.org">kyle.rader@ieee.org</a> | (425) 241 - 7977</p>
-            </div>
+    <div class="unit-80 unit-centered">
+        <ul class="list-flat list-spaced-large resume-list">
+            <li>
+                <h4>EDUCATION</h4>
+            </li>
+        </ul>
+    </div>
+</div>
+<?php
+/*
         </div>
         <!-- EDUCATION -->
         <div class="row dark-bg">
@@ -124,3 +133,6 @@
         <?php include_once "$docRoot/include/footer.php"; ?>
     </div>
 </div>
+
+*/
+?>

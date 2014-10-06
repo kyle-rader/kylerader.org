@@ -201,10 +201,12 @@
 
 	color: rgba(red(@color-text), green(@color-text), blue(@color-text), .9);
 	background: @color;
+	.transition();
 
 	&:hover {
 		color: rgba(red(@color-text), green(@color-text), blue(@color-text), .6);
 		background: @color-dark;
+		.transition();
 	}
 
 	&.btn-active {
