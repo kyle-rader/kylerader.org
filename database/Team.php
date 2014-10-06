@@ -7,7 +7,7 @@ class Team {
     public $teamLeadFirstName;
     public $teamLeadLastName;
     public $teamLeadEmail;
-    public $teamLeadXP;
+    public $teamLeadClass;
     public $teamCode;
 
     function __construct($data) {
@@ -16,7 +16,7 @@ class Team {
         $this->teamLeadFirstName = $data['teamLeadFirstName'];
         $this->teamLeadLastName = $data['teamLeadLastName'];
         $this->teamLeadEmail = $data['teamLeadEmail'];
-        $this->teamLeadXP = $data['teamLeadXP'];
+        $this->teamLeadClass = $data['teamLeadClass'];
         $this->teamCode = $data['teamCode'];
     }
 
@@ -26,14 +26,14 @@ class Team {
         if($stmt = $mysqli->prepare($sql)) {
             $stmt->bind_param("i", $teamId);
             $stmt->execute();
-            $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName, $teamLeadEmail, $teamLeadXP, $teamCode);
+            $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName, $teamLeadEmail, $teamLeadClass, $teamCode);
             if($stmt->fetch()) {
                 $data['id'] = $id;
                 $data['teamName'] = $teamName;
                 $data['teamLeadFirstName'] = $teamLeadFirstName;
                 $data['teamLeadLastName'] = $teamLeadLastName;
                 $data['teamLeadEmail'] = $teamLeadEmail;
-                $data['teamLeadXP'] = $teamLeadXP;
+                $data['teamLeadClass'] = $teamLeadClass;
                 $data['teamCode'] = $teamCode;
             }
             $stmt->close();
@@ -47,14 +47,14 @@ class Team {
         if($stmt = $mysqli->prepare($sql)) {
             $stmt->bind_param("s", $teamNameToFind);
             $stmt->execute();
-            $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName, $teamLeadEmail, $teamLeadXP, $teamCode);
+            $stmt->bind_result($id, $teamName, $teamLeadFirstName, $teamLeadLastName, $teamLeadEmail, $teamLeadClass, $teamCode);
             if($stmt->fetch()) {
                 $data['id'] = $id;
                 $data['teamName'] = $teamName;
                 $data['teamLeadFirstName'] = $teamLeadFirstName;
                 $data['teamLeadLastName'] = $teamLeadLastName;
                 $data['teamLeadEmail'] = $teamLeadEmail;
-                $data['teamLeadXP'] = $teamLeadXP;
+                $data['teamLeadClass'] = $teamLeadClass;
                 $data['teamCode'] = $teamCode;
             }
             $stmt->close();
@@ -67,11 +67,11 @@ class Team {
         if ($this->id  == 0) {
             $sql = <<<EOT
 INSERT INTO Teams
-(teamName, teamLeadFirstName, teamLeadLastName, teamLeadEmail, teamLeadXP, teamCode)
+(teamName, teamLeadFirstName, teamLeadLastName, teamLeadEmail, teamLeadClass, teamCode)
 VALUES (?, ?, ?, ?, ?, ?)
 EOT;
             if($stmt = $mysqli->prepare($sql)) {
-                $stmt->bind_param("ssssss", $this->teamName, $this->teamLeadFirstName, $this->teamLeadLastName, $this->teamLeadEmail, $this->teamLeadXP, md5($this->teamCode));
+                $stmt->bind_param("ssssss", $this->teamName, $this->teamLeadFirstName, $this->teamLeadLastName, $this->teamLeadEmail, $this->teamLeadClass, md5($this->teamCode));
                 if($stmt->execute()) {
                     $sucess = true;
                     $mysqli->commit();
