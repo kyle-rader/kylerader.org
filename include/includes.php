@@ -10,7 +10,7 @@ $terms = Array();
 $terms['nav-items'] = Array(
     '/' => 'HOME',
     '/Hack' => 'WWU CS HACKATHON',
-    'http://classfinder.kylerader.org' => 'CLASSFINDER PROJECT',
+    //'http://classfinder.kylerader.org' => 'CLASSFINDER PROJECT',
     '/Resume' => 'RESUME',
     '/Resources' => 'RESOURCES');
 

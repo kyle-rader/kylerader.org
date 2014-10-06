@@ -1,20 +1,9 @@
-<div id="mainWrapper" class="dark-bg">
-    <div id="header" >
-        <div class="row center-text">
-            <div class="small-12 columns">
-                <h1>Resources and Cool Things</h1>
-            </div>
-        </div>
-    </div>
-
-    <div id="content">
-        <!-- Coding -->
-        <div class="row dark-bg">
-            <div class="large-2 columns">
-                <h4 class="green-text">Coding</h4>
-            </div>
-            <div class="large-10 columns">
-                <ul class="button-group">
+<div class="units-row">
+    <div class="unit-80 unit-centered">
+        <div class="units-row">
+            <div class="unit-33">
+                <h4>Coding</h4><hr>
+                <ul class="list-flat">
                     <li><a class="button small" target="_blank" href="https://www.codeschool.com/">Code School</a></li>
                     <li><a class="button small" target="_blank" href="http://www.tutorialspoint.com/computer_programming_tutorials.htm">Tutorials Point</a></li>
                     <li><a class="button small" target="_blank" href="http://www.codecademy.com/">Codecademy</a></li>
@@ -24,14 +13,9 @@
                     <li><a class="button small" target="_blank" href="https://coderdojo.com/">Code Dojo</a></li>
                 </ul>
             </div>
-        </div>
-        <!-- Cool Things -->
-        <div class="row dark-bg">
-            <div class="large-2 columns">
-                <h4 class="green-text">Cool Things</h4>
-            </div>
-            <div class="large-10 columns">
-                <ul class="button-group">
+            <div class="unit-33">
+                <h4>Cool Things</h4><hr>
+                <ul class="list-flat">
                     <li><a href="http://www.ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;">Best Git Cheatsheet</a></li>
                     <li><a class="button small" target="_blank" href="http://www.synapse.com/wall-of-cool">All the Cool Things Are Here</a></li>
                     <li><a class="button small" target="_blank" href="http://xamarin.com/">Xamarin</a></li>
@@ -43,14 +27,9 @@
                     <li><a class="button small" target="_blank" href="https://koding.com/Activity">Koding</a></li>
                 </ul>
             </div>
-        </div>
-        <!-- Western -->
-        <div class="row dark-bg">
-            <div class="large-2 columns">
-                <h4 class="green-text">Western</h4>
-            </div>
-            <div class="large-10 columns">
-                <ul class="button-group">
+            <div class="unit-33">
+                <h4>Western</h4><hr>
+                <ul class="list-flat">
                     <li><a class="button small" target="_blank" href="https://cse.wwu.edu/computer-science">WWU Computer Science</a></li>
                     <li><a class="button small" target="_blank" href="https://support.cs.wwu.edu/index.php/Main_Page">CS Support</a></li>
                     <li><a class="button small" target="_blank" href="http://sw.cs.wwu.edu/~nordwap/">CS Web Cams</a></li>
@@ -59,9 +38,5 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-    <div id="footer">
-        <?php include_once "$docRoot/include/footer.php"; ?>
     </div>
 </div>
