@@ -12,11 +12,11 @@ class Team {
 
     function __construct($data) {
         $this->id = $data['id'];
-        $this->teamName = $data['teamName'];
-        $this->teamLeadFirstName = $data['teamLeadFirstName'];
-        $this->teamLeadLastName = $data['teamLeadLastName'];
-        $this->teamLeadEmail = $data['teamLeadEmail'];
-        $this->teamLeadClass = $data['teamLeadClass'];
+        $this->teamName = trim($data['teamName']);
+        $this->teamLeadFirstName = trim($data['teamLeadFirstName']);
+        $this->teamLeadLastName = trim($data['teamLeadLastName']);
+        $this->teamLeadEmail = trim($data['teamLeadEmail']);
+        $this->teamLeadClass = trim($data['teamLeadClass']);
         $this->teamCode = $data['teamCode'];
     }
 
