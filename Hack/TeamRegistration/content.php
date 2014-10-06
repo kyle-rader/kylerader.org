@@ -10,7 +10,7 @@
                 </label>
                 <label class="unit-50">
                     Team Code <span class="forms-desc">Other team members will need this to register</span>
-                    <input type="password" name="teamCode" required pattern="[a-zA-Z0-9!@#$%^&*()_+=-]{8,}">
+                    <input type="text" name="teamCode" required pattern="[a-zA-Z0-9!@#$%^&*()_+=-]{8,}">
                     <span class="forms-desc">Must be at least 8 characters. (Letters, numbers, and any of !@#$%^&*()_+=-)</span>
                 </label>
             </div>
