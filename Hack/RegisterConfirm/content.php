@@ -62,7 +62,10 @@
         if ($teamCodeCorrect || $team == null) {
         ?>
         <form class="forms" action="/Hack/RegisterSubmit" method="GET">
-            <input class="btn" type="submit" value="Confirm">
+            <ul class="forms-inline-list">
+                <li><a href="javascript: window.history.back();" class="btn btn-blue">Back</a></li>
+                <li><input class="btn" type="submit" value="Confirm"></li>
+            </ul>
             <input type="hidden" name="firstName" value="<?php print $_GET['firstName']; ?>">
             <input type="hidden" name="lastName" value="<?php print $_GET['lastName']; ?>">
             <input type="hidden" name="email" value="<?php print $_GET['email']; ?>">
@@ -71,13 +74,7 @@
             <input type="hidden" name="teamId" value="<?php print $_GET['teamId']; ?>">
             <input type="hidden" name="teamCode" value="<?php print $_GET['teamCode']; ?>">
         </form>
-        <?php
-        } else {
-            print <<<EOT
-<a href="javascript: window.history.back();" class="btn btn-blue">Back</a>
-EOT;
-        }
-        ?>
+        <?php } ?>
     </div>
 </div>
 
