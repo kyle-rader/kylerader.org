@@ -5,11 +5,11 @@
             <div class="units-row forms-row">
                 <label class="unit-25">
                     First Name
-                    <input type="text" name="firstName" required pattern="[a-zA-Z_-!@#$%^&*()+=][a-zA-Z_-!@#$%^&*()+=]*"/>
+                    <input type="text" name="firstName" required pattern="[a-zA-Z_]{1,}"/>
                 </label>
                 <label class="unit-25">
                     Last Name
-                    <input type="text" name="lastName" required pattern="[a-zA-Z_-!@#$%^&*()+=][a-zA-Z_-!@#$%^&*()+=]*"/>
+                    <input type="text" name="lastName" required pattern="[a-zA-Z_]{1,}"/>
                 </label>
                 <label class="unit-50">
                     Email
