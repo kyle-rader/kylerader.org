@@ -34,7 +34,10 @@
         <?php print isset($_GET['judgeAttendOpeningLunch']) && $_GET['judgeAttendOpeningLunch'] == 'on' ? 'Yes' : 'No'; ?>
         <hr>
         <form class="forms" action="/Hack/CompanyRegistrationSubmit" method="GET">
-            <input class="btn" type="submit" value="Submit">
+            <ul class="forms-inline-list">
+                <li><a href="javascript: window.history.back();" class="btn btn-blue">Back</a></li>
+                <li><input class="btn" type="submit" value="Confirm"></li>
+            </ul>
             <input type="hidden" name="companyName" value="<?php print $_GET['companyName']; ?>">
             <input type="hidden" name="contactName" value="<?php print $_GET['contactName']; ?>">
             <input type="hidden" name="contactEmail" value="<?php print $_GET['contactEmail']; ?>">

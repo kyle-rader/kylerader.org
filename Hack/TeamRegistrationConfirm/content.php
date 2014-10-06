@@ -28,7 +28,10 @@
             </li>
         </ul>
         <form class="forms" action="/Hack/TeamRegistrationSubmit" method="GET">
-            <input class="btn" type="submit" value="Confirm">
+            <ul class="forms-inline-list">
+                <li><a href="javascript: window.history.back();" class="btn btn-blue">Back</a></li>
+                <li><input class="btn" type="submit" value="Confirm"></li>
+            </ul>
             <input type="hidden" name="teamName" value="<?php print $_GET['teamName']; ?>">
             <input type="hidden" name="teamCode" value="<?php print $_GET['teamCode']; ?>">
             <input type="hidden" name="teamLeadFirstName" value="<?php print $_GET['teamLeadFirstName']; ?>">
