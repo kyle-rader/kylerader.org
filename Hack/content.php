@@ -23,6 +23,11 @@
                     <li><span class="blue-text">TLDR:</span>
                     You.  Form team.  Build app/website/service in 24 hours.  Pitch it.  Win prizes! Network with companies!
                     </li>
+                    <li><h4 class="blue-text bold">Registration</h4>
+                        <a class="btn btn-blue" href="/Hack/Register">Register</a>
+                        <a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a>
+                        <a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a>                        
+                    </li>
                 </ul>
             </div>
             <div class="unit-40">
@@ -50,13 +55,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
-        <div class="units-row">
-            <h4>Register Below!</h4>
-            <a class="btn btn-blue" href="/Hack/JoinTeam">Join a Team</a>
-            <a class="btn btn-blue" href="/Hack/TeamRegistration">Register a Team</a>
-            <a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a>
-            <a class="btn btn-blue" href="/Hack/MentorRegistration">Mentor Registration</a>
         </div>
     </div>
 </div>
