@@ -70,7 +70,7 @@
                 <div class="unit-50">
                     <h4>Haven't found a team yet:</h4>
                     <p>No worries!  You don't need a team yet!  Submit your registration now and show up to the event!  <strong>Teams can form on the spot during opening lunch!</strong></p>
-                    <p>If you find a team on or before Nov 1st simply come back here.  Register with your same info and a newly found team code and we will update your registration!</p>
+                    <p>If you find a team on or before Nov 1st simply come back here.  Register with your same email and a newly found team code and we will update your registration!</p>
                     <p>Or make a team now by clicking the button below!</p>
                     <a href="/Hack/TeamRegistration" class="btn btn-blue">Make a Team Now!</a>
                 </div>
