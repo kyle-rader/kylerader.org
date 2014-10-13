@@ -49,6 +49,14 @@
                         <strong>Oct 30 - 5:00 pm</strong> | WWU Communication Facility <strong>162</strong>
                     </li>
                 </ul>
+                <h4 class="blue-text bold">Sponsors</h4>
+                <ul class="blocks-3 logos">
+                    <li><img src="/img/er_logo.png"></li>
+                    <li><img src="/img/faithlife_logo.jpg"></li>
+                    <li><img src="/img/vitech_logo.png"></li>
+                    <li class="block-first"><img src="/img/dis_logo.png"></li>
+                    <li><img src="/img/slalom_logo.png"></li>
+                </ul>
             </div>
         </div>
         <div class="units-rows">

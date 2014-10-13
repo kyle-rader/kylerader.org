@@ -11,7 +11,7 @@ $files = array('mixins', 'variables', 'reset',
     'grid-responsive', 'blocks-responsive', 'typography-responsive', 
     'navigation-responsive', 'forms-responsive', 
     'print',
-    'framework', 'sideNav', 'resume');
+    'framework', 'sideNav', 'resume', 'hack');
 
 
 if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler");
