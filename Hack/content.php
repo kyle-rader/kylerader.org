@@ -51,11 +51,12 @@
                 </ul>
                 <h4 class="blue-text bold">Sponsors</h4>
                 <ul class="blocks-3 logos">
-                    <li><img src="/img/er_logo.png"></li>
-                    <li><img src="/img/faithlife_logo.jpg"></li>
-                    <li><img src="/img/vitech_logo.png"></li>
-                    <li class="block-first"><img src="/img/dis_logo.png"></li>
-                    <li><img src="/img/slalom_logo.png"></li>
+                    <li><img src="/img/er_logo.png" alt="Emergency Reporting"></li>
+                    <li><img src="/img/faithlife_logo.jpg" alt="Faithlife"></li>
+                    <li><img src="/img/vitech_logo.png" alt="Vitech Group"></li>
+                    <li class="block-first"><img src="/img/dis_logo.png" alt="Dealer Information Systems"></li>
+                    <li><img src="/img/slalom_logo.png" alt="Slalom Consulting"></li>
+                    <li><img src="/img/spie_logo.png" alt="SPIE"></li>
                 </ul>
             </div>
         </div>
