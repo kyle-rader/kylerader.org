@@ -1,11 +1,11 @@
 Options +FollowSymlinks
 RewriteEngine on
-RewriteRule ^(.*)[cC]lassfinder$ /Classfinder/index.php [nc]
-RewriteRule ^(.*)[hH]ack$ /Hackathon/index.php [nc]
-RewriteRule ^(.*)[rR]esume$ /Resume/index.php [nc]
-RewriteRule ^(.*)[rR]esources$ /Resources/index.php [nc]
+RewriteRule ^(.*)(h|H)ackathon$ /Hack [nc]
+RewriteRule ^(.*)(h|H)ack$ /Hack [nc]
+RewriteRule ^(.*)[rR]esume$ /Resume [nc]
+RewriteRule ^(.*)[rR]esources$ /Resources [nc]
 RewriteRule ^(.*)\.html$ $1.php [nc]
-RewriteRule ^(/?|Home)$  /Home/index.php [nc]
+RewriteRule ^(/?|Home)$  /Home [nc]
 RewriteRule ^/(.*)$ /$1/index.php [nc]
 
 <IfModule mod_headers.c>
