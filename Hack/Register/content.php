@@ -36,6 +36,7 @@
                     <select name="school">
                         <option value="wwu_cs">WWU Computer Science</option>
                         <option value="wwu_id">WWU Industrial Design</option>
+                        <option value="wwu_other">WWU Another Dept.</option>
                         <option value="wcc">Whatcom Community College</option>
                         <option value="btc">Bellingham Technical College</option>
                     </select>
