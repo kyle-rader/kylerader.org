@@ -8,7 +8,7 @@
                     <li><h4 class="blue-text bold">Where</h4>WWU Computer Science Department & Labs (Communications Facility 1st & 4th floors)</li>
                     <li><h4 class="blue-text bold">Why</h4>
                     The Hackathon has two primary functions.  First and foremost we want to get students out of their
-                    books and into a team creating and building an thing!  Second, we want to connect you with companies interested
+                    books and into a team creating and building anything!  Second, we want to connect you with companies interested
                     in hiring you!  Multiple companies will be participating and sponsoring the event so take advantage of
                     their interest!  There will be free food, conversation, and swag!
                     </li>
