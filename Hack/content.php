@@ -24,8 +24,8 @@
                 <h4 class="blue-text bold">Pre-Events</h4>
                 <ul class="list-flat list-spaced-large">
                     <li>
-                        <h5>Hackathon Information Session 2</h5>
-                        <strong>Oct 20 - 5:30 pm</strong> | WWU Communication Facility <strong>420</strong>
+                        <h5>Hackathon Information Session <strong class="red-text">2</strong></h5>
+                        <strong>Oct 20 - 5:30 pm</strong> | WWU Communication Facility <strong class="red-text">105 (note change)</strong>
                     </li>
                     <li>
                         <h5>Git Version Control Lecture</h5>
