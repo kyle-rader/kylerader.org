@@ -11,6 +11,7 @@
                     <li><a class="button small" target="_blank" href="http://girldevelopit.com/">Girl Develop It</a></li>
                     <li><a class="button small" target="_blank" href="https://www.udacity.com/course/cs101">Stanford Intro to CS</a></li>
                     <li><a class="button small" target="_blank" href="https://coderdojo.com/">Code Dojo</a></li>
+                    <li><a class="button small" target="_blank" href="http://nodeschool.io/">Node School</a></li>
                 </ul>
             </li>
             <li>
