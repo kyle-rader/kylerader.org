@@ -68,3 +68,8 @@
         </div>
     </div>
 </div>
+<div class="units-row">
+     <div class="unit-80 unit-centered">
+     	  <img src="/img/FA14-Hackathon-Poster.png" width="100%">
+    </div>
+</div>
