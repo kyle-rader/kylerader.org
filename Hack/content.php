@@ -33,7 +33,7 @@
                     </li>
                     <li>
                         <h5>Git Lab Session 1 (25 seats)</h5>
-                        <strong>Oct 22 - 5:00 pm</strong> | WWU Communication Facility <strong>162</strong>
+                        <strong>Oct 22 - <span class="red-text">4:00 pm</span></strong> | WWU Communication Facility <strong>162</strong>
                     </li>
                     <li>
                         <h5>Git Lab Session 2 (25 seats)</h5>
