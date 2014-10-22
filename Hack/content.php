@@ -24,6 +24,7 @@
                     <li><a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a></li>
                     <li><a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a></li>
                     <li>Questions? <a href="mailto:kyle.rader+hackathon@ieee.org">Email Kyle!</a></li>
+		    <li>See the slide from the git lecture here: <a target="_blank" href="https://docs.google.com/presentation/d/1fJsNiXxPP82q3OeNOvui_IpTUl9Y10dnW2AWTRo8UIs/edit?usp=sharing">Topic Branch git Workflow</a></li>
                 </ul>
             </div>
         </div>
