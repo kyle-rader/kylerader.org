@@ -1,4 +1,9 @@
 <div class="units-row">
+     <div class="unit-80 unit-centered">
+     	  <h3>If you are not a WWU CS student you must register by Tuesday Oct 28th</h3>
+     </div>
+</div>
+<div class="units-row">
     <div class="unit-80 unit-centered">
         <div class="units-row">
             <div class="unit-50">
