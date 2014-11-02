@@ -4,47 +4,152 @@ html, body {
 	height: 100%;
 	background-color: @background-body;
 }
-
-#mainWrapper {
-	float: right;
-	width: 100% - @sideNav-width;
-	min-height: 100%;
-	position: relative;
-
-	#header {
-		padding: 10px;
+@media screen and (min-width: 1400px) {
+	iframe {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
-	#content {
-		padding-top: @content-padding-top;
-		padding-bottom: @footer-height+40px;
-	}
+	#mainWrapper {
+		float: right;
+		width: 100% - @sideNav-width;
+		min-height: 100%;
+		position: relative;
 
-	#footer {
-		width: 100%;
-		height: @footer-height;
-		position: absolute;
-		bottom: 0;
-		left:0;
-		font-size: @font-size-smaller;
-
-		i {
-			font-size: @icon-font-size;
+		#header {
+			padding: 10px;
 		}
 
-		#siteseal {
-			display:block;
-			margin-bottom: 15px;
+		#content {
+			padding-top: @content-padding-top;
+			padding-bottom: @footer-height+40px;
+		}
+
+		#footer {
+			width: 100%;
+			height: @footer-height;
+			position: absolute;
+			bottom: 0;
+			left:0;
+			font-size: @font-size-smaller;
+
+			i {
+				font-size: @icon-font-size;
+			}
+
+			#siteseal {
+				display:block;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	ul.footer-icons {
+
+		li {
+			margin-right: 20px;
+		}
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+	iframe {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#mainWrapper {
+		float: right;
+		width: 100% - @sideNav-width-med;
+		min-height: 100%;
+		position: relative;
+
+		#header {
+			padding: 10px;
+		}
+
+		#content {
+			padding-top: @content-padding-top;
+			padding-bottom: @footer-height+40px;
+		}
+
+		#footer {
+			width: 100%;
+			height: @footer-height;
+			position: absolute;
+			bottom: 0;
+			left:0;
+			font-size: @font-size-smaller;
+
+			i {
+				font-size: @icon-font-size;
+			}
+
+			#siteseal {
+				display:block;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	ul.footer-icons {
+
+		li {
+			margin-right: 15px;
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	iframe {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#mainWrapper {
+		width: 100%;
+		min-height: 100%;
+		position: relative;
+
+		#header {
+			padding: 60px;
+		}
+
+		#content {
+			padding-top: @content-padding-top;
+			padding-bottom: @footer-height+40px;
+		}
+
+		#footer {
+			width: 100%;
+			height: @footer-height;
+			position: absolute;
+			bottom: 0;
+			left:0;
+			font-size: @font-size-smaller;
+
+			i {
+				font-size: @icon-font-size;
+			}
+
+			#siteseal {
+				display:block;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	ul.footer-icons {
+
+		li {
+			margin-right: 15px;
 		}
 	}
 }
 
+
 ul.footer-icons {
-
-	li {
-		margin-right: 15px;
-	}
-
 	i.fi-social-facebook {
 		color: #3b5998;
 		.transition(color .2s linear);
