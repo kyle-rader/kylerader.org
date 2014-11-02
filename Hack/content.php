@@ -1,42 +1,53 @@
 <div class="units-row">
-     <div class="unit-80 unit-centered">
-     	  <h3>If you are not a WWU CS student you must register by Tuesday Oct 28th</h3>
-     </div>
+  <div class="unit-80 unit-centered">
+    <h3 class="blue-text">Active Teams</h3>
+    <ul class="blocks-5">
+      <li>
+	<h5>315B Studios</h5>
+	<p>Chinese curriculum.</p>
+      </li>
+      <li>
+	<h5>Cb (C flat)</h5>
+	<p>Bus route/times/scheduling.</p>
+      </li>
+      <li>
+	<h5>Code Monkeys</h5>
+	<p>Better classfinder GUI and search results display.</p>
+      </li>
+      <li>
+	<h5>DROP_TABLE_Teams</h5>
+	<p>Notecard/ flash cards.</p>
+      </li>
+      <li>
+	<h5>Koding with a K</h5>
+	<p>Smart planner/organizer.</p>
+      </li>
+      <li class="block-first">
+	<h5>Matt and the Lams</h5>
+	<p>Academic social networking.</p>
+      </li>
+      <li>
+	<h5>Nachobits</h5>
+	<p>Email client for easy and secure communication.</p>
+      </li>
+      <li>
+	<h5>Red Black Forest</h5>
+	<p>Connecting underclassman with upperclassman to trade knowledge for meals.</p>
+      </li>
+      <li>
+	<h5>Wombats</h5>
+	<p>Classfinder and degree eval.</p>
+      </li>
+      <li>
+	<h5>Missing Semicolon</h5>
+	<p>Connect teachers/mentors in person with groups to share knowledge/teach.</p>
+      </li>
+    </ul>
+  </div>
 </div>
+
 <div class="units-row">
-    <div class="unit-80 unit-centered">
-        <div class="units-row">
-            <div class="unit-50">
-                <h4 class="blue-text bold">Pre-Events</h4>
-                <ul class="list-flat list-spaced-large">
-                    <li>
-                        <h5>Git Lab Session 1 (25 seats)</h5>
-                        <strong>Oct 22 - <span class="red-text">4:00 pm</span></strong> | WWU Communication Facility <strong>162</strong>
-                    </li>
-                    <li>
-                        <h5>Git Lab Session 2 (25 seats)</h5>
-                        <strong>Oct 28 - 4:00 pm</strong> | WWU Communication Facility <strong>162</strong>
-                    </li>
-                    <li>
-                        <h5>Git Lab Session 3 (25 seats)</h5>
-                        <strong>Oct 30 - 5:00 pm</strong> | WWU Communication Facility <strong>162</strong>
-                    </li>
-                </ul>
-            </div>
-            <div class="unit-50">
-                <ul class="list-flat list-spaced-large">
-                    <li><a class="btn btn-blue" href="/Hack/Register">Register</a></li>
-                    <li><a class="btn btn-blue" href="/Hack/TeamRegistration">Make a Team</a></li>
-                    <li><a class="btn btn-blue" href="/Hack/CompanyRegistration">Company Registration</a></li>
-                    <li>Questions? <a href="mailto:kyle.rader+hackathon@ieee.org">Email Kyle!</a></li>
-		    <li>See the slides from the git lecture here: <a target="_blank" href="https://docs.google.com/presentation/d/1fJsNiXxPP82q3OeNOvui_IpTUl9Y10dnW2AWTRo8UIs/edit?usp=sharing">Topic Branch git Workflow</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="units-row">
-     <div class="unit-80 unit-centered">
-     	  <img src="/img/FA14-Hackathon-Poster.png" width="100%">
-    </div>
+  <div class="unit-80 unit-centered">
+    <img src="/img/FA14-Hackathon-Poster.png" width="100%">
+  </div>
 </div>
