@@ -1,5 +1,8 @@
 <?php
 /* Setup */
+header("Location: https://" . $_SERVER['SERVER_NAME'] . "/Hackathon");
+exit();
+
 include_once $_SERVER["DOCUMENT_ROOT"] . "/include/includes.php";
 include_once "$docRoot/database/Team.php";
 $page = "Hack/Register";
