@@ -1,21 +1,21 @@
 <div class="units-row">
   <div class="unit-80 unit-centered">
     <h3 class="blue-text">Active Teams</h3>
-    <ul class="blocks-5">
+    <ul class="blocks-5 block-mobile-2">
       <li>
 	<h5>315B Studios</h5>
 	<p>Chinese curriculum.</p>
       </li>
       <li>
 	<h5>Cb (C flat)</h5>
-	<p>Bus route/times/scheduling.</p>
+	<p>Bus route/ times/ scheduling.</p>
       </li>
       <li>
 	<h5>Code Monkeys</h5>
 	<p>Better classfinder GUI and search results display.</p>
       </li>
       <li>
-	<h5>DROP_TABLE_Teams</h5>
+	<h5>DROP TABLE Teams</h5>
 	<p>Notecard/ flash cards.</p>
       </li>
       <li>
