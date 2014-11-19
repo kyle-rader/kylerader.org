@@ -43,6 +43,13 @@
                     <li><a  target="_blank" href="http://www.wwu.edu/wwuarchitect/pages/fd/pdf/campusfloorplans/CF01W001.pdf">Dept 1st Floor</a></li>
                 </ul>
             </li>
+	    <li class="block-first">
+	        <h4>Programming Languages</h4><hr>
+		<ul class="list-flat">
+		    <li><a target="_blank" href="http://doc.rust-lang.org/">Rust</a></li>
+		    <li><a target="_blank" href="https://ocaml.org/">OCaml</a></li>
+		</ul>
+	    </li>
         </ul>
     </div>
 </div>
